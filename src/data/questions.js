@@ -6,7 +6,9 @@ import musiqueQuestions from './musique.js'
 import personnalitesQuestions from './personnalites.js'
 import cultureQuestions from './culture.js'
 import cuisineQuestions from './cuisine.js'
+import sportQuestions from './sport.js'
 const questions = {
+sport: sportQuestions,
   histoire: histoireQuestions,
   geographie: geographieQuestions,
   litterature: litteratureQuestions,
