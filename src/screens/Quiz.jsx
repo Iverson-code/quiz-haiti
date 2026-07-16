@@ -9,6 +9,7 @@ import {
 import { playCorrect, playWrong, playCategoryChime } from '../utils/sound.js'
 import { addXP, recordGameStats, addHistoryEntry } from '../utils/progress.js'
 import { submitGameResult } from '../firebase/leaderboard.js'
+import { pushProgress } from '../firebase/progressSync.js'
 
 const BASE_TIME = 25
 const MIN_TIME = 12
@@ -123,6 +124,7 @@ export default function Quiz() {
       correctCount,
       total: totalAnswered
     })
+    pushProgress()
 
     navigate('/result', {
       state: {
