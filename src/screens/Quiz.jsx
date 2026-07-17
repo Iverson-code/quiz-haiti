@@ -9,7 +9,7 @@ import {
 import { playCorrect, playWrong, playCategoryChime } from '../utils/sound.js'
 import { addXP, recordGameStats, addHistoryEntry } from '../utils/progress.js'
 import { submitGameResult } from '../firebase/leaderboard.js'
-import { recordDefeat, resetDefeats, checkIsPremium } from '../firebase/premium.js'
+import { recordGamePlayed, resetGamesSinceAd, checkIsPremium } from '../firebase/premium.js'
 import AdModal from '../components/AdModal.jsx'
 import { pushProgress } from '../firebase/progressSync.js'
 
@@ -197,14 +197,16 @@ export default function Quiz() {
 
     setTimeout(() => {
       if (nextLives <= 0) {
-        recordDefeat().then(count => {
-          if (!isPremium && count >= 5) setShowAd(true)
+        recordGamePlayed().then(count => {
+          if (!isPremium && count >= 5) { setShowAd(true); resetGamesSinceAd() }
         })
         finishQuiz(nextPoints, index + 1)
         return
       }
       if (!isSurvie && index + 1 >= pool.length) {
-        resetDefeats()
+        recordGamePlayed().then(count => {
+          if (!isPremium && count >= 5) { setShowAd(true); resetGamesSinceAd() }
+        })
         finishQuiz(nextPoints, pool.length)
         return
       }

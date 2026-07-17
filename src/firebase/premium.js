@@ -14,26 +14,26 @@ export async function checkIsPremium() {
   }
 }
 
-export async function recordDefeat() {
+export async function recordGamePlayed() {
   const user = auth.currentUser
   if (!user) return 0
   const ref = doc(db, 'user_premium', user.uid)
   try {
-    await setDoc(ref, { consecutiveDefeats: increment(1) }, { merge: true })
+    await setDoc(ref, { gamesSinceAd: increment(1) }, { merge: true })
     const snap = await getDoc(ref)
-    return snap.data()?.consecutiveDefeats || 0
+    return snap.data()?.gamesSinceAd || 0
   } catch (err) {
-    console.warn('recordDefeat a échoué :', err)
+    console.warn('recordGamePlayed a échoué :', err)
     return 0
   }
 }
 
-export async function resetDefeats() {
+export async function resetGamesSinceAd() {
   const user = auth.currentUser
   if (!user) return
   try {
-    await setDoc(doc(db, 'user_premium', user.uid), { consecutiveDefeats: 0 }, { merge: true })
+    await setDoc(doc(db, 'user_premium', user.uid), { gamesSinceAd: 0 }, { merge: true })
   } catch (err) {
-    console.warn('resetDefeats a échoué :', err)
+    console.warn('resetGamesSinceAd a échoué :', err)
   }
 }
