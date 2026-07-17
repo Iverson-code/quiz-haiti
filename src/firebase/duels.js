@@ -3,10 +3,9 @@ import {
   query, where, orderBy, limit, getDocs, serverTimestamp
 } from 'firebase/firestore'
 import { db, auth } from './config.js'
-import questions from '../data/questions.js'
+import { loadAllQuestions } from '../data/loadQuestions.js'
 
 const DUEL_QUESTION_COUNT = 10
-const allQuestions = Object.values(questions).flat()
 
 function shuffle(arr) {
   const a = [...arr]
@@ -21,6 +20,7 @@ export async function createDuel(opponentUid, opponentPseudo) {
   const me = auth.currentUser
   if (!me) throw new Error('Non connecté')
 
+  const allQuestions = await loadAllQuestions()
   const picked = shuffle(allQuestions).slice(0, DUEL_QUESTION_COUNT)
   const duelRef = doc(collection(db, 'duels'))
 

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import questions from '../data/questions.js'
+import { loadCategory, loadAllQuestions } from '../data/loadQuestions.js'
 import categories from '../data/categories.js'
 import {
   getBestScore, setBestScoreIfHigher,
@@ -30,8 +30,6 @@ function timeLimitFor(index) {
   return Math.max(MIN_TIME, BASE_TIME - Math.floor(index / TIME_DROP_EVERY))
 }
 
-const allQuestions = Object.values(questions).flat()
-
 export default function Quiz() {
   const { catId } = useParams()
   const navigate = useNavigate()
@@ -43,13 +41,32 @@ export default function Quiz() {
 
   const modeLabel = isSurvie ? 'Survie Infinie' : isDaily ? 'Quiz du Jour' : (category?.name || 'Quiz')
 
-  const basePool = useMemo(() => {
-    if (isDaily) return seededShuffle(allQuestions, todayKey()).slice(0, DAILY_COUNT)
-    if (isSurvie) return shuffle(allQuestions)
-    return shuffle(questions[catId] || [])
-  }, [catId, isSurvie, isDaily])
+  const [pool, setPool] = useState([])
+  const [loadingQuestions, setLoadingQuestions] = useState(true)
 
-  const [pool, setPool] = useState(basePool)
+  useEffect(() => {
+    let cancelled = false
+    setLoadingQuestions(true)
+    async function load() {
+      let data
+      if (isDaily) {
+        const all = await loadAllQuestions()
+        data = seededShuffle(all, todayKey()).slice(0, DAILY_COUNT)
+      } else if (isSurvie) {
+        const all = await loadAllQuestions()
+        data = shuffle(all)
+      } else {
+        const cat = await loadCategory(catId)
+        data = shuffle(cat || [])
+      }
+      if (!cancelled) {
+        setPool(data)
+        setLoadingQuestions(false)
+      }
+    }
+    load()
+    return () => { cancelled = true }
+  }, [catId, isSurvie, isDaily])
   const [index, setIndex] = useState(0)
   const [points, setPoints] = useState(0)
   const [correctCount, setCorrectCount] = useState(0)
@@ -181,6 +198,16 @@ export default function Quiz() {
       }
       setIndex(i => i + 1)
     }, 900)
+  }
+
+  if (loadingQuestions) {
+    return (
+      <div className="screen quiz-screen">
+        <div className="quiz-empty">
+          <p>Chargement des questions...</p>
+        </div>
+      </div>
+    )
   }
 
   if (!current) {
