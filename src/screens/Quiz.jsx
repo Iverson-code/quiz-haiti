@@ -9,6 +9,8 @@ import {
 import { playCorrect, playWrong, playCategoryChime } from '../utils/sound.js'
 import { addXP, recordGameStats, addHistoryEntry } from '../utils/progress.js'
 import { submitGameResult } from '../firebase/leaderboard.js'
+import { recordDefeat, resetDefeats, checkIsPremium } from '../firebase/premium.js'
+import AdModal from '../components/AdModal.jsx'
 import { pushProgress } from '../firebase/progressSync.js'
 
 const BASE_TIME = 25
@@ -43,6 +45,12 @@ export default function Quiz() {
 
   const [pool, setPool] = useState([])
   const [loadingQuestions, setLoadingQuestions] = useState(true)
+  const [showAd, setShowAd] = useState(false)
+  const [isPremium, setIsPremium] = useState(true)
+
+  useEffect(() => {
+    checkIsPremium().then(setIsPremium)
+  }, [])
 
   useEffect(() => {
     let cancelled = false
@@ -189,10 +197,14 @@ export default function Quiz() {
 
     setTimeout(() => {
       if (nextLives <= 0) {
+        recordDefeat().then(count => {
+          if (!isPremium && count >= 5) setShowAd(true)
+        })
         finishQuiz(nextPoints, index + 1)
         return
       }
       if (!isSurvie && index + 1 >= pool.length) {
+        resetDefeats()
         finishQuiz(nextPoints, pool.length)
         return
       }
@@ -208,6 +220,10 @@ export default function Quiz() {
         </div>
       </div>
     )
+  }
+
+  if (showAd) {
+    return <AdModal onClose={() => { setShowAd(false); resetDefeats() }} />
   }
 
   if (!current) {
