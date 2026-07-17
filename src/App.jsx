@@ -25,8 +25,10 @@ export default function App() {
     const unsub = subscribeAuth(async user => {
       if (user && !syncedRef.current) {
         syncedRef.current = true
+        const alreadyReloaded = sessionStorage.getItem('quizhaiti_synced_reload')
         const found = await pullProgress()
-        if (found) {
+        if (found && !alreadyReloaded) {
+          sessionStorage.setItem('quizhaiti_synced_reload', '1')
           window.location.reload()
         } else {
           pushProgress()
