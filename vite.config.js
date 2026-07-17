@@ -24,7 +24,17 @@ export default defineConfig({
       },
       workbox: {
         mode: 'development',
-        maximumFileSizeToCacheInBytes: 8 * 1024 * 1024
+        globIgnores: ['**/assets/index-*.js'],
+        runtimeCaching: [
+          {
+            urlPattern: /\/assets\/index-.*\.js$/,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'app-js-cache',
+              expiration: { maxEntries: 3 }
+            }
+          }
+        ]
       }
     })
   ],
