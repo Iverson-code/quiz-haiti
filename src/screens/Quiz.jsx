@@ -91,7 +91,7 @@ export default function Quiz() {
 
   useEffect(() => {
     if (isSurvie && current === undefined && pool.length > 0) {
-      setPool(p => [...p, ...shuffle(allQuestions)])
+      setPool(p => [...p, ...shuffle(p)])
     }
   }, [isSurvie, current, pool])
 
