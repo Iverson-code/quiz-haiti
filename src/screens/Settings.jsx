@@ -67,6 +67,14 @@ export default function Settings() {
           </button>
         </div>
 
+        <button className="mode-card" onClick={() => navigate('/aide')}>
+          <span className="mode-card__icon">❓</span>
+          <div className="mode-card__text">
+            <span className="mode-card__title">Aide & Contact</span>
+            <span className="mode-card__subtitle">Une question ou une proposition ? Écris-nous</span>
+          </div>
+        </button>
+
         <button className="mode-card" onClick={resetScores}>
           <span className="mode-card__icon">🗑️</span>
           <div className="mode-card__text">
