@@ -48,6 +48,8 @@ export default function Quiz() {
   const [showAd, setShowAd] = useState(false)
   const [isPremium, setIsPremium] = useState(true)
   const [pendingResult, setPendingResult] = useState(null)
+  const [reviveUsed, setReviveUsed] = useState(false)
+  const [showRevivePrompt, setShowRevivePrompt] = useState(false)
 
   useEffect(() => {
     checkIsPremium().then(setIsPremium)
@@ -71,6 +73,7 @@ export default function Quiz() {
       if (!cancelled) {
         setPool(data)
         setLoadingQuestions(false)
+        setReviveUsed(false)
       }
     }
     load()
@@ -198,10 +201,9 @@ export default function Quiz() {
 
     setTimeout(async () => {
       if (nextLives <= 0) {
-        const count = await recordGamePlayed()
-        if (!isPremium && count >= 5) {
+        if (!isPremium && !reviveUsed) {
           setPendingResult({ finalPoints: nextPoints, totalAnswered: index + 1 })
-          setShowAd(true)
+          setShowRevivePrompt(true)
         } else {
           finishQuiz(nextPoints, index + 1)
         }
@@ -231,12 +233,43 @@ export default function Quiz() {
     )
   }
 
+  if (showRevivePrompt) {
+    return (
+      <div className="screen quiz-screen">
+        <div className="quiz-empty">
+          <p>Tu as perdu toutes tes vies !</p>
+          <button
+            className="btn-primary"
+            onClick={() => {
+              setShowRevivePrompt(false)
+              setShowAd(true)
+            }}
+          >
+            🎬 Regarder une pub (+1 vie)
+          </button>
+          <button
+            className="btn-outline"
+            onClick={() => {
+              setShowRevivePrompt(false)
+              if (pendingResult) {
+                finishQuiz(pendingResult.finalPoints, pendingResult.totalAnswered)
+                setPendingResult(null)
+              }
+            }}
+          >
+            Terminer la partie
+          </button>
+        </div>
+      </div>
+    )
+  }
+
   if (showAd) {
     return <AdModal onClose={() => {
       setShowAd(false)
-      resetGamesSinceAd()
+      setReviveUsed(true)
       if (pendingResult) {
-        finishQuiz(pendingResult.finalPoints, pendingResult.totalAnswered)
+        setLives(1)
         setPendingResult(null)
       }
     }} />
