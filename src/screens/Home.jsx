@@ -14,6 +14,9 @@ export default function Home() {
       <button className="home-settings-btn" onClick={() => { startMusic(); navigate('/parametres') }}>
         ⚙️
       </button>
+      <button className="home-settings-btn home-help-btn" onClick={() => { startMusic(); navigate('/aide') }}>
+        ❓
+      </button>
       <div className="home-v2-content">
         <div className="home-v2-flag">🇭🇹</div>
         <h1 className="home-v2-title">QUIZ HAÏTI</h1>

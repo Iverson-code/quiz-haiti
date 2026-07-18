@@ -500,3 +500,8 @@ body {
   color: #fff;
   border-color: #fff;
 }
+
+.home-help-btn {
+  right: auto;
+  left: 16px;
+}

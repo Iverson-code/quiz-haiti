@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from './screens/Home.jsx'
+import Help from './screens/Help.jsx'
 import ModeSelect from './screens/ModeSelect.jsx'
 import Categories from './screens/Categories.jsx'
 import Quiz from './screens/Quiz.jsx'
@@ -46,6 +47,7 @@ export default function App() {
     <div className="phone-frame">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/aide" element={<Help />} />
         <Route path="/mode" element={<ModeSelect />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/quiz/:catId" element={<Quiz />} />
