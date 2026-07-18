@@ -47,6 +47,7 @@ export default function Quiz() {
   const [loadingQuestions, setLoadingQuestions] = useState(true)
   const [showAd, setShowAd] = useState(false)
   const [isPremium, setIsPremium] = useState(true)
+  const [pendingResult, setPendingResult] = useState(null)
 
   useEffect(() => {
     checkIsPremium().then(setIsPremium)
@@ -195,19 +196,25 @@ export default function Quiz() {
     setLives(nextLives)
     setBestStreak(b => Math.max(b, nextStreak))
 
-    setTimeout(() => {
+    setTimeout(async () => {
       if (nextLives <= 0) {
-        recordGamePlayed().then(count => {
-          if (!isPremium && count >= 5) { setShowAd(true); resetGamesSinceAd() }
-        })
-        finishQuiz(nextPoints, index + 1)
+        const count = await recordGamePlayed()
+        if (!isPremium && count >= 5) {
+          setPendingResult({ finalPoints: nextPoints, totalAnswered: index + 1 })
+          setShowAd(true)
+        } else {
+          finishQuiz(nextPoints, index + 1)
+        }
         return
       }
       if (!isSurvie && index + 1 >= pool.length) {
-        recordGamePlayed().then(count => {
-          if (!isPremium && count >= 5) { setShowAd(true); resetGamesSinceAd() }
-        })
-        finishQuiz(nextPoints, pool.length)
+        const count = await recordGamePlayed()
+        if (!isPremium && count >= 5) {
+          setPendingResult({ finalPoints: nextPoints, totalAnswered: pool.length })
+          setShowAd(true)
+        } else {
+          finishQuiz(nextPoints, pool.length)
+        }
         return
       }
       setIndex(i => i + 1)
@@ -225,7 +232,14 @@ export default function Quiz() {
   }
 
   if (showAd) {
-    return <AdModal onClose={() => { setShowAd(false); resetDefeats() }} />
+    return <AdModal onClose={() => {
+      setShowAd(false)
+      resetGamesSinceAd()
+      if (pendingResult) {
+        finishQuiz(pendingResult.finalPoints, pendingResult.totalAnswered)
+        setPendingResult(null)
+      }
+    }} />
   }
 
   if (!current) {
