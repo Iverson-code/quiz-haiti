@@ -53,10 +53,34 @@ function formatCountdown(ms) {
   return `${m}:${s.toString().padStart(2, '0')}`
 }
 
+// mélange une copie du tableau (Fisher-Yates)
+function shuffle(arr) {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
+// mélange les questions ET, pour chacune, l'ordre de ses options (en gardant la bonne réponse valide)
+function shuffleChapterQuestions(questions) {
+  return shuffle(questions).map(q => {
+    const optionObjs = q.options.map((text, i) => ({ text, isCorrect: i === q.correct }))
+    const shuffledOptions = shuffle(optionObjs)
+    return {
+      q: q.q,
+      options: shuffledOptions.map(o => o.text),
+      correct: shuffledOptions.findIndex(o => o.isCorrect),
+    }
+  })
+}
+
 export default function NarratifQuiz() {
   const { chapterId } = useParams()
   const navigate = useNavigate()
   const chapter = useMemo(() => chapters.find(c => c.id === chapterId), [chapterId])
+  const questions = useMemo(() => chapter ? shuffleChapterQuestions(chapter.questions) : [], [chapterId])
 
   const [lives, setLives] = useState(() => chapter ? computeAvailableLives(chapter.lives) : 0)
   const [qIndex, setQIndex] = useState(0)
@@ -97,7 +121,7 @@ export default function NarratifQuiz() {
   }
 
   if (finished) {
-    const totalQuestions = chapter.questions.length
+    const totalQuestions = questions.length
     const pct = Math.round((correctCount / totalQuestions) * 100)
     const passed = pct >= 80
     if (passed) markChapterCompleted(chapter.id)
@@ -121,7 +145,7 @@ export default function NarratifQuiz() {
     )
   }
 
-  const question = chapter.questions[qIndex]
+  const question = questions[qIndex]
 
   function handleAnswer(i) {
     if (selected !== null) return
@@ -143,7 +167,7 @@ export default function NarratifQuiz() {
         return
       }
 
-      if (qIndex + 1 >= chapter.questions.length) {
+      if (qIndex + 1 >= questions.length) {
         setFinished(true)
       } else {
         setQIndex(qIndex + 1)
@@ -157,7 +181,7 @@ export default function NarratifQuiz() {
       <button className="mode-back" onClick={() => navigate('/narratif')}>←</button>
       <h1 className="mode-title">{chapter.title}</h1>
       <p style={{ color: '#aaa', padding: '0 20px' }}>
-        ❤️ {lives} vies · Question {qIndex + 1}/{chapter.questions.length}
+        ❤️ {lives} vies · Question {qIndex + 1}/{questions.length}
       </p>
 
       <div className="mode-list">
