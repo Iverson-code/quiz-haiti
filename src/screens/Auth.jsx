@@ -3,10 +3,16 @@ import { useNavigate } from 'react-router-dom'
 import { signUp, signIn, translateAuthError } from '../firebase/auth.js'
 import { auth } from '../firebase/config.js'
 
+const REGIONS = [
+  'Artibonite', 'Centre', "Grand'Anse", 'Nippes', 'Nord',
+  'Nord-Est', 'Nord-Ouest', 'Ouest', 'Sud', 'Sud-Est', 'Diaspora'
+]
+
 export default function Auth() {
   const navigate = useNavigate()
   const [mode, setMode] = useState('login')
   const [pseudo, setPseudo] = useState('')
+  const [region, setRegion] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
@@ -27,7 +33,12 @@ export default function Auth() {
           setLoading(false)
           return
         }
-        await signUp(email.trim(), password, pseudo.trim())
+        if (!region) {
+          setError('Choisis ton département (ou Diaspora).')
+          setLoading(false)
+          return
+        }
+        await signUp(email.trim(), password, pseudo.trim(), region)
       } else {
         await signIn(email.trim(), password)
       }
@@ -55,6 +66,19 @@ export default function Auth() {
               maxLength={20}
               style={{ marginBottom: 14 }}
             />
+
+            <label className="profile-label">Département (ou Diaspora)</label>
+            <select
+              className="profile-input"
+              value={region}
+              onChange={e => setRegion(e.target.value)}
+              style={{ marginBottom: 14 }}
+            >
+              <option value="">-- Choisis --</option>
+              {REGIONS.map(r => (
+                <option key={r} value={r}>{r}</option>
+              ))}
+            </select>
           </>
         )}
 

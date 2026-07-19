@@ -8,13 +8,19 @@ import {
 import { doc, setDoc, getDoc, serverTimestamp } from 'firebase/firestore'
 import { auth, db } from './config.js'
 
-export async function signUp(email, password, pseudo) {
+export async function signUp(email, password, pseudo, region) {
   const cred = await createUserWithEmailAndPassword(auth, email, password)
   await updateProfile(cred.user, { displayName: pseudo })
   await setDoc(doc(db, 'users', cred.user.uid), {
     pseudo,
     email,
+    region,
     createdAt: serverTimestamp()
+  })
+  await setDoc(doc(db, 'user_totals', cred.user.uid), {
+    pseudo,
+    region,
+    totalPoints: 0
   })
   return cred.user
 }

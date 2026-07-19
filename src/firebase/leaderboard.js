@@ -20,6 +20,8 @@ export async function submitGameResult({ catId, points, correctCount, total }) {
 
     const totalsRef = doc(db, 'user_totals', uid)
     const totalsSnap = await getDoc(totalsRef)
+    const region = totalsSnap.exists() ? totalsSnap.data().region : null
+
     if (totalsSnap.exists()) {
       await setDoc(totalsRef, {
         pseudo,
@@ -27,6 +29,13 @@ export async function submitGameResult({ catId, points, correctCount, total }) {
       }, { merge: true })
     } else {
       await setDoc(totalsRef, { pseudo, totalPoints: points })
+    }
+
+    if (region) {
+      const team = region === 'Diaspora' ? 'diaspora' : 'haiti'
+      await setDoc(doc(db, 'team_totals', team), {
+        totalPoints: increment(points)
+      }, { merge: true })
     }
 
     const bestId = `${uid}_${catId}`
@@ -56,6 +65,28 @@ export async function getCategoryLeaderboard(catId, max = 50) {
   )
   const snap = await getDocs(q)
   return snap.docs.map(d => d.data())
+}
+
+export async function getRegionLeaderboard(region, max = 50) {
+  const q = query(
+    collection(db, 'user_totals'),
+    where('region', '==', region),
+    orderBy('totalPoints', 'desc'),
+    limit(max)
+  )
+  const snap = await getDocs(q)
+  return snap.docs.map(d => ({ uid: d.id, ...d.data() }))
+}
+
+export async function getTeamTotals() {
+  const [haitiSnap, diasporaSnap] = await Promise.all([
+    getDoc(doc(db, 'team_totals', 'haiti')),
+    getDoc(doc(db, 'team_totals', 'diaspora'))
+  ])
+  return {
+    haiti: haitiSnap.exists() ? haitiSnap.data().totalPoints : 0,
+    diaspora: diasporaSnap.exists() ? diasporaSnap.data().totalPoints : 0
+  }
 }
 
 export async function getPeriodLeaderboard(period, max = 50) {

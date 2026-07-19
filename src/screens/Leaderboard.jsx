@@ -4,15 +4,23 @@ import categories from '../data/categories.js'
 import { getBestScore } from '../utils/storage.js'
 import { auth } from '../firebase/config.js'
 import {
-  getTotalLeaderboard, getCategoryLeaderboard, getPeriodLeaderboard
+  getTotalLeaderboard, getCategoryLeaderboard, getPeriodLeaderboard,
+  getRegionLeaderboard, getTeamTotals
 } from '../firebase/leaderboard.js'
+
+const REGIONS = [
+  'Artibonite', 'Centre', "Grand'Anse", 'Nippes', 'Nord',
+  'Nord-Est', 'Nord-Ouest', 'Ouest', 'Sud', 'Sud-Est', 'Diaspora'
+]
 
 const TABS = [
   { key: 'total', label: 'Total' },
   { key: 'day', label: 'Jour' },
   { key: 'week', label: 'Semaine' },
   { key: 'month', label: 'Mois' },
-  { key: 'category', label: 'Catégories' }
+  { key: 'category', label: 'Catégories' },
+  { key: 'region', label: 'Département' },
+  { key: 'team', label: 'Haïti vs Diaspora' }
 ]
 
 export default function Leaderboard() {
@@ -20,7 +28,9 @@ export default function Leaderboard() {
   const user = auth.currentUser
   const [tab, setTab] = useState('total')
   const [selectedCat, setSelectedCat] = useState('histoire')
+  const [selectedRegion, setSelectedRegion] = useState('Ouest')
   const [rows, setRows] = useState([])
+  const [teamTotals, setTeamTotals] = useState(null)
   const [loading, setLoading] = useState(false)
   const [errored, setErrored] = useState(false)
 
@@ -30,11 +40,17 @@ export default function Leaderboard() {
       setLoading(true)
       setErrored(false)
       try {
-        let data = []
-        if (tab === 'total') data = await getTotalLeaderboard()
-        else if (tab === 'category') data = await getCategoryLeaderboard(selectedCat)
-        else data = await getPeriodLeaderboard(tab)
-        if (!cancelled) setRows(data)
+        if (tab === 'team') {
+          const data = await getTeamTotals()
+          if (!cancelled) setTeamTotals(data)
+        } else {
+          let data = []
+          if (tab === 'total') data = await getTotalLeaderboard()
+          else if (tab === 'category') data = await getCategoryLeaderboard(selectedCat)
+          else if (tab === 'region') data = await getRegionLeaderboard(selectedRegion)
+          else data = await getPeriodLeaderboard(tab)
+          if (!cancelled) setRows(data)
+        }
       } catch (err) {
         console.warn('Classement indisponible :', err)
         if (!cancelled) setErrored(true)
@@ -44,12 +60,14 @@ export default function Leaderboard() {
     }
     load()
     return () => { cancelled = true }
-  }, [tab, selectedCat])
+  }, [tab, selectedCat, selectedRegion])
 
   const localRows = [
     { id: 'survie', name: 'Survie Infinie', icon: '🎮' },
     ...categories.map(c => ({ id: c.id, name: c.name, icon: c.icon }))
   ].map(r => ({ ...r, best: getBestScore(r.id) }))
+
+  const teamMax = teamTotals ? Math.max(teamTotals.haiti, teamTotals.diaspora, 1) : 1
 
   return (
     <div className="screen mode-screen">
@@ -90,6 +108,21 @@ export default function Leaderboard() {
             </div>
           )}
 
+          {tab === 'region' && (
+            <div className="lb-cat-picker">
+              {REGIONS.map(r => (
+                <button
+                  key={r}
+                  className={"lb-cat-chip" + (selectedRegion === r ? ' lb-cat-chip--active' : '')}
+                  onClick={() => setSelectedRegion(r)}
+                  style={{ padding: '6px 10px', fontSize: '13px' }}
+                >
+                  {r}
+                </button>
+              ))}
+            </div>
+          )}
+
           {loading && <p className="leaderboard-note">Chargement...</p>}
           {errored && (
             <p className="leaderboard-note">
@@ -97,7 +130,34 @@ export default function Leaderboard() {
             </p>
           )}
 
-          {!loading && !errored && (
+          {!loading && !errored && tab === 'team' && teamTotals && (
+            <div className="mode-list">
+              <div className="mode-card mode-card--static">
+                <div className="mode-card__text" style={{ width: '100%' }}>
+                  <span className="mode-card__title">🇭🇹 Haïti — {teamTotals.haiti} pts</span>
+                  <div style={{ background: '#222', borderRadius: 6, height: 10, marginTop: 6 }}>
+                    <div style={{
+                      width: `${(teamTotals.haiti / teamMax) * 100}%`,
+                      background: '#1e7e34', height: '100%', borderRadius: 6
+                    }} />
+                  </div>
+                </div>
+              </div>
+              <div className="mode-card mode-card--static">
+                <div className="mode-card__text" style={{ width: '100%' }}>
+                  <span className="mode-card__title">🌍 Diaspora — {teamTotals.diaspora} pts</span>
+                  <div style={{ background: '#222', borderRadius: 6, height: 10, marginTop: 6 }}>
+                    <div style={{
+                      width: `${(teamTotals.diaspora / teamMax) * 100}%`,
+                      background: '#f5c518', height: '100%', borderRadius: 6
+                    }} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {!loading && !errored && tab !== 'team' && (
             <div className="mode-list">
               {rows.length === 0 && (
                 <p className="leaderboard-note">Personne pour l'instant sur cette période. Sois le premier !</p>
