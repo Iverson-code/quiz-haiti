@@ -16,6 +16,7 @@ import Friends from './screens/Friends.jsx'
 import Duels from './screens/Duels.jsx'
 import DuelQuiz from './screens/DuelQuiz.jsx'
 import Narratif from './screens/Narratif.jsx'
+import NarratifQuiz from './screens/NarratifQuiz.jsx'
 import { subscribeAuth } from './firebase/auth.js'
 import { pullProgress, pushProgress } from './firebase/progressSync.js'
 
@@ -52,6 +53,7 @@ export default function App() {
         <Route path="/mode" element={<ModeSelect />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/narratif" element={<Narratif />} />
+        <Route path="/narratif/chapitre/:chapterId" element={<NarratifQuiz />} />
         <Route path="/quiz/:catId" element={<Quiz />} />
         <Route path="/result" element={<Result />} />
         <Route path="/classement" element={<Leaderboard />} />
