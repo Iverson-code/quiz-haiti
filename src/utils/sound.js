@@ -1,8 +1,8 @@
-// Générateur de sons léger basé sur l'API Web Audio — aucun fichier audio
-// à héberger, tout est synthétisé en direct dans le navigateur.
+// Générateur de sons léger basé sur l'API Web Audio pour les effets sonores.
+// La musique de fond utilise un vrai fichier audio (public/music/bgmusic.mp3).
 
 let ctx = null
-let musicTimer = null
+let musicAudio = null
 
 const PREFIX = 'quizhaiti_'
 
@@ -92,39 +92,24 @@ export function playCategoryChime(catId) {
   tone(f, 0, 0.15, { type: 'sine', gain: 0.07 })
 }
 
-const CHORD = [261.63, 329.63, 392.0, 523.25]
-
-function playPad() {
-  const c = getCtx()
-  const g = c.createGain()
-  g.gain.setValueAtTime(0, c.currentTime)
-  g.gain.linearRampToValueAtTime(0.035, c.currentTime + 2)
-  g.gain.linearRampToValueAtTime(0, c.currentTime + 7.5)
-  g.connect(c.destination)
-
-  CHORD.forEach(freq => {
-    const osc = c.createOscillator()
-    osc.type = 'sine'
-    osc.frequency.value = freq
-    osc.connect(g)
-    osc.start()
-    osc.stop(c.currentTime + 8)
-  })
+function getMusicAudio() {
+  if (!musicAudio) {
+    musicAudio = new Audio('/music/bgmusic.mp3')
+    musicAudio.loop = true
+    musicAudio.volume = 0.3
+  }
+  return musicAudio
 }
 
 export function startMusic() {
   if (!isMusicEnabled()) return
-  if (musicTimer) return
-  getCtx()
-  playPad()
-  musicTimer = setInterval(() => {
-    if (isMusicEnabled()) playPad()
-  }, 8000)
+  const audio = getMusicAudio()
+  audio.play().catch(() => {})
 }
 
 export function stopMusic() {
-  if (musicTimer) {
-    clearInterval(musicTimer)
-    musicTimer = null
+  if (musicAudio) {
+    musicAudio.pause()
+    musicAudio.currentTime = 0
   }
 }
