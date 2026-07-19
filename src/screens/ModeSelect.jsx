@@ -36,6 +36,14 @@ export default function ModeSelect() {
             <span className="mode-card__subtitle">Choisis un thème précis à explorer</span>
           </div>
         </button>
+
+        <button className="mode-card" onClick={() => navigate('/narratif')}>
+          <span className="mode-card__icon">⏳</span>
+          <div className="mode-card__text">
+            <span className="mode-card__title">Campagne Historique</span>
+            <span className="mode-card__subtitle">Revis l'histoire d'Haïti, chapitre par chapitre</span>
+          </div>
+        </button>
       </div>
     </div>
   )

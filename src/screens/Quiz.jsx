@@ -46,6 +46,7 @@ export default function Quiz() {
   const [pool, setPool] = useState([])
   const [loadingQuestions, setLoadingQuestions] = useState(true)
   const [showAd, setShowAd] = useState(false)
+  const [adMode, setAdMode] = useState(null) // 'revive' | 'end'
   const [isPremium, setIsPremium] = useState(true)
   const [pendingResult, setPendingResult] = useState(null)
   const [reviveUsed, setReviveUsed] = useState(false)
@@ -213,6 +214,7 @@ export default function Quiz() {
         const count = await recordGamePlayed()
         if (!isPremium && count >= 5) {
           setPendingResult({ finalPoints: nextPoints, totalAnswered: pool.length })
+          setAdMode('end')
           setShowAd(true)
         } else {
           finishQuiz(nextPoints, pool.length)
@@ -242,6 +244,7 @@ export default function Quiz() {
             className="btn-primary"
             onClick={() => {
               setShowRevivePrompt(false)
+              setAdMode('revive')
               setShowAd(true)
             }}
           >
@@ -267,11 +270,25 @@ export default function Quiz() {
   if (showAd) {
     return <AdModal onClose={() => {
       setShowAd(false)
-      setReviveUsed(true)
-      if (pendingResult) {
+      if (adMode === 'revive') {
+        setReviveUsed(true)
         setLives(1)
-        setPendingResult(null)
+        setSelected(null)
+        if (pendingResult) {
+          if (index + 1 < pool.length) {
+            setIndex(i => i + 1)
+          } else {
+            finishQuiz(pendingResult.finalPoints, pendingResult.totalAnswered)
+          }
+          setPendingResult(null)
+        }
+      } else if (adMode === 'end') {
+        if (pendingResult) {
+          finishQuiz(pendingResult.finalPoints, pendingResult.totalAnswered)
+          setPendingResult(null)
+        }
       }
+      setAdMode(null)
     }} />
   }
 
