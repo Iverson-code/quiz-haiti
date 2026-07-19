@@ -113,3 +113,18 @@ export function stopMusic() {
     musicAudio.currentTime = 0
   }
 }
+
+// Coupe la musique quand l'app passe en arrière-plan (changement d'onglet,
+// mise en veille de l'écran, ou sortie de l'app installée), et la reprend
+// si elle jouait au retour.
+let wasMusicPlayingBeforeHidden = false
+if (typeof document !== 'undefined') {
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+      wasMusicPlayingBeforeHidden = !!musicTimer
+      stopMusic()
+    } else if (wasMusicPlayingBeforeHidden && isMusicEnabled()) {
+      startMusic()
+    }
+  })
+}
