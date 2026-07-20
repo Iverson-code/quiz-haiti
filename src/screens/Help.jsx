@@ -11,7 +11,7 @@ export default function Help() {
         <p>Une question, une idée, un bug à signaler ?</p>
         <a
           className="btn-outline"
-          href="https://instagram.com/shadow_walker_one"
+          href="https://www.instagram.com/quiz_haiti"
           target="_blank"
           rel="noopener noreferrer"
         >
