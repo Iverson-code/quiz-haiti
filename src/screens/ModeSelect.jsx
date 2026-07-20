@@ -44,6 +44,14 @@ export default function ModeSelect() {
             <span className="mode-card__subtitle">Revis l'histoire d'Haïti, chapitre par chapitre</span>
           </div>
         </button>
+
+        <button className="mode-card" onClick={() => navigate('/special')}>
+          <span className="mode-card__icon">⭐</span>
+          <div className="mode-card__text">
+            <span className="mode-card__title">Catégorie Spéciale</span>
+            <span className="mode-card__subtitle">Dirigeants d'Haïti & Spécial Concours UEH</span>
+          </div>
+        </button>
       </div>
     </div>
   )

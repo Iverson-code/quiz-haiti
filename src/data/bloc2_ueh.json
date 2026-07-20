@@ -1,0 +1,3082 @@
+[
+  {
+    "q": "Quel organe a exercé le pouvoir exécutif en Haïti d'avril 2024 au 7 février 2026 ?",
+    "options": [
+      "Le Conseil présidentiel de transition (CPT)",
+      "Le Sénat haïtien",
+      "La Cour de cassation",
+      "Le Conseil électoral provisoire"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qui a reçu la totalité du pouvoir exécutif après la dissolution du Conseil présidentiel de transition, le 7 février 2026 ?",
+    "options": [
+      "Le Premier ministre Alix Didier Fils-Aimé",
+      "Le président Laurent Saint-Cyr",
+      "Un nouveau Conseil électoral",
+      "L'armée haïtienne"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "En quelle année le Conseil présidentiel de transition avait-il été créé ?",
+    "options": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Depuis quelle année Haïti n'a-t-il plus organisé d'élections générales (jusqu'en 2026) ?",
+    "options": [
+      "2010",
+      "2016",
+      "2018",
+      "2021"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Quel événement de 2021 a laissé Haïti sans président ?",
+    "options": [
+      "Un coup d'État militaire",
+      "L'assassinat de Jovenel Moïse",
+      "La démission collective du gouvernement",
+      "Un séisme majeur"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Qui était Premier ministre d'Haïti avant la formation du Conseil présidentiel de transition en 2024 ?",
+    "options": [
+      "Ariel Henry",
+      "Claude Joseph",
+      "Garry Conille",
+      "Alix Didier Fils-Aimé"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est l'âge approximatif du Premier ministre Alix Didier Fils-Aimé lors de la fin du CPT en février 2026 ?",
+    "options": [
+      "44 ans",
+      "54 ans",
+      "64 ans",
+      "34 ans"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Quel organe est chargé d'organiser les prochaines élections en Haïti et a prolongé l'enregistrement des groupements politiques jusqu'au 31 juillet 2026 ?",
+    "options": [
+      "Le Conseil électoral provisoire (CEP)",
+      "La Cour supérieure des comptes",
+      "Le Bureau intégré des Nations Unies",
+      "Le ministère de la Justice"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel ancien président haïtien est mentionné pour son retour au pays en 2026 ?",
+    "options": [
+      "René Préval",
+      "Michel Martelly",
+      "Jean-Bertrand Aristide",
+      "Jovenel Moïse"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Quel mot d'ordre a été mis en avant lors de la cérémonie de passation de pouvoir de février 2026 ?",
+    "options": [
+      "Croissance, emploi, unité",
+      "Sécurité, dialogue politique, élections, stabilité",
+      "Réforme agraire et éducation",
+      "Décentralisation totale"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Combien de temps la transition encadrée par l'accord politique du 3 avril 2024 devait-elle durer ?",
+    "options": [
+      "12 mois",
+      "18 mois",
+      "22 mois",
+      "36 mois"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Quel pays a retiré son soutien diplomatique à des membres du CPT en retirant leurs visas début 2026 ?",
+    "options": [
+      "La France",
+      "Le Canada",
+      "Les États-Unis",
+      "Le Brésil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Quel est le nom de la capitale d'Haïti, largement contrôlée par les gangs en 2026 ?",
+    "options": [
+      "Cap-Haïtien",
+      "Port-au-Prince",
+      "Gonaïves",
+      "Jacmel"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Combien de sièges au CPT réclamait initialement le courant politique de Jean-Charles Moïse ?",
+    "options": [
+      "Un seul",
+      "Deux",
+      "Trois",
+      "Quatre"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Quelle institution a marqué en juillet 2026 une réunion des chefs de missions diplomatiques haïtiennes ?",
+    "options": [
+      "Le ministère des Affaires étrangères (chancellerie)",
+      "L'Assemblée nationale",
+      "La Banque de la République d'Haïti",
+      "L'Université d'État d'Haïti"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Comment se nomme la force internationale chargée de remplacer la mission dirigée par le Kenya en Haïti ?",
+    "options": [
+      "La Force de répression des gangs (FRG/GSF)",
+      "La MINUSTAH II",
+      "Les Casques bleus d'Haïti",
+      "L'Alliance sécuritaire caribéenne"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel effectif est prévu pour la Force de répression des gangs en Haïti ?",
+    "options": [
+      "Environ 1 000 personnes",
+      "Environ 2 500 personnes",
+      "Environ 5 500 personnes",
+      "Environ 10 000 personnes"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Combien de voix ont soutenu la résolution du Conseil de sécurité créant la Force de répression des gangs ?",
+    "options": [
+      "8 voix pour, 7 abstentions",
+      "12 voix pour, 3 abstentions",
+      "15 voix pour, 0 abstention",
+      "10 voix pour, 5 abstentions"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Quels pays se sont abstenus lors du vote sur la Force de répression des gangs ?",
+    "options": [
+      "Chine, Pakistan, Russie",
+      "France, Royaume-Uni, Allemagne",
+      "Brésil, Mexique, Argentine",
+      "Inde, Japon, Corée du Sud"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quels pays ont présenté conjointement le texte créant la Force de répression des gangs ?",
+    "options": [
+      "France et Canada",
+      "États-Unis et Panama",
+      "Brésil et Mexique",
+      "Kenya et Nigeria"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Sous quel chapitre de la Charte des Nations Unies la Force de répression des gangs opère-t-elle ?",
+    "options": [
+      "Chapitre VI",
+      "Chapitre VII",
+      "Chapitre VIII",
+      "Chapitre X"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Quelle zone est citée comme l'une des dernières zones sûres de la capitale, où opèrent les patrouilles ?",
+    "options": [
+      "Kenscoff",
+      "Delmas",
+      "Pétion-Ville centre",
+      "Cité Soleil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Combien de personnes seraient déplacées à l'intérieur d'Haïti à cause de la violence des gangs, selon un rapport de l'ONU de 2025 ?",
+    "options": [
+      "Environ 500 000",
+      "Environ 1,45 million",
+      "Environ 3 millions",
+      "Environ 200 000"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Combien de millions de personnes sont confrontées à une crise humanitaire en Haïti selon les estimations récentes ?",
+    "options": [
+      "Environ 4 millions",
+      "Environ 10 millions",
+      "Environ 16 millions",
+      "Environ 20 millions"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Quel organisme onusien fournit un soutien logistique et opérationnel à la Force de répression des gangs ?",
+    "options": [
+      "Un nouveau bureau onusien créé à cet effet",
+      "L'UNESCO",
+      "Le Programme alimentaire mondial seul",
+      "Interpol"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle route nationale a été partiellement rouverte grâce à l'appui de la mission internationale à la police haïtienne ?",
+    "options": [
+      "La route nationale 1",
+      "La route nationale 3",
+      "La route de l'aéroport seule",
+      "La route Jacmel-Cap-Haïtien"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "En 2025, l'effectif de la mission internationale (MMAS) atteignait quel pourcentage de son objectif de 2 500 policiers ?",
+    "options": [
+      "Environ 20 %",
+      "Environ 40 %",
+      "Environ 60 %",
+      "Environ 90 %"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Quel organe de l'ONU examine régulièrement l'évolution de la crise sécuritaire haïtienne à travers des rapports du BINUH ?",
+    "options": [
+      "Le Conseil de sécurité",
+      "L'Assemblée générale seule",
+      "La Cour internationale de justice",
+      "Le Conseil des droits de l'homme seul"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Comment est souvent qualifié Haïti en termes de niveau de vie parmi les pays des Amériques ?",
+    "options": [
+      "Le pays le plus riche des Amériques",
+      "Le plus pauvre pays des Amériques",
+      "Un pays à revenu élevé",
+      "Un pays exportateur de pétrole"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Quelle agence de l'ONU a lancé une campagne de production alimentaire d'urgence en Haïti en juillet 2026 ?",
+    "options": [
+      "La FAO",
+      "L'OMC",
+      "Le FMI",
+      "La BAD"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Avec quelle organisation Haïti a-t-il renforcé sa coopération pour soutenir la relance industrielle en 2026 ?",
+    "options": [
+      "L'ONUDI",
+      "L'OTAN",
+      "L'OMS",
+      "L'AIEA"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle maladie a motivé une aide de 500 000 euros de l'Union européenne à Haïti en juillet 2026 ?",
+    "options": [
+      "Le choléra",
+      "La diphtérie",
+      "La rougeole",
+      "La dengue"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Quel type d'assistance la CAS (Croix-Rouge / structure d'aide) a-t-elle renforcé à Kenscoff en juillet 2026 ?",
+    "options": [
+      "Une aide financière directe aux entreprises",
+      "La distribution de vivres et de produits d'hygiène aux déplacés",
+      "La construction de routes",
+      "La vaccination anti-choléra uniquement"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Quel examen national haïtien a fait l'objet d'un bilan critique du CONEHQ en juillet 2026 ?",
+    "options": [
+      "Le Baccalauréat",
+      "Le Brevet",
+      "Le concours d'entrée à l'université",
+      "L'examen de neuvième année fondamentale"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle plateforme, « LesonPaw », a été lancée en 2026 pour accompagner jeunes et professionnels haïtiens ?",
+    "options": [
+      "Par JobPaw",
+      "Par le ministère de l'Éducation seul",
+      "Par l'UNESCO",
+      "Par une université américaine"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle langue, aux côtés du français, est officielle en Haïti ?",
+    "options": [
+      "Le créole haïtien",
+      "L'espagnol",
+      "L'anglais",
+      "Le portugais"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "En quelle année Haïti a-t-il proclamé son indépendance ?",
+    "options": [
+      "1791",
+      "1804",
+      "1825",
+      "1915"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Quel est le nom local du transport en commun coloré typique de Port-au-Prince ?",
+    "options": [
+      "Le tap-tap",
+      "Le zémidjan",
+      "Le tuk-tuk",
+      "Le combi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type de musique est particulièrement associé à la culture populaire haïtienne, mêlant tambours et carnaval ?",
+    "options": [
+      "Le konpa",
+      "La salsa",
+      "Le reggaeton",
+      "Le fado"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays partage la même île qu'Haïti ?",
+    "options": [
+      "La République dominicaine",
+      "Cuba",
+      "La Jamaïque",
+      "Porto Rico"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel séisme majeur a frappé Haïti en 2010, faisant des centaines de milliers de morts ?",
+    "options": [
+      "Le séisme de 2010 à Port-au-Prince",
+      "Le séisme de 2016",
+      "Le séisme de 2021 dans le Sud",
+      "Le séisme de 1946"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle région du sud d'Haïti a été frappée par un séisme meurtrier en août 2021 ?",
+    "options": [
+      "La Grand'Anse et le Sud",
+      "Le Nord-Est",
+      "L'Artibonite",
+      "Le Plateau central"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle est la monnaie officielle d'Haïti ?",
+    "options": [
+      "La gourde",
+      "Le peso",
+      "Le dollar haïtien",
+      "Le franc"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le nom du dernier président du Conseil présidentiel de transition avant sa dissolution ?",
+    "options": [
+      "Laurent Saint-Cyr",
+      "Smith Augustin",
+      "Louis Gérald Gilles",
+      "Emmanuel Vertilaire"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays voisin a pris des mesures concernant sa frontière avec Haïti en lien avec la crise sécuritaire ?",
+    "options": [
+      "La République dominicaine",
+      "Cuba",
+      "La Jamaïque",
+      "Le Venezuela"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel peintre haïtien est associé au mouvement de l'art naïf haïtien mondialement reconnu ?",
+    "options": [
+      "Hector Hyppolite",
+      "Wifredo Lam",
+      "Frida Kahlo",
+      "Diego Rivera"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel groupe la sélection haïtienne de football évoluait-elle lors de la Coupe du monde 2026 ?",
+    "options": [
+      "Le même groupe que le Brésil et le Maroc",
+      "Le même groupe que l'Argentine",
+      "Le même groupe que la France",
+      "Le même groupe que l'Espagne"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Vers quels pays la diaspora haïtienne est-elle la plus nombreuse ?",
+    "options": [
+      "États-Unis, République dominicaine, Canada",
+      "Chine, Russie, Japon",
+      "Australie, Nouvelle-Zélande",
+      "Arabie Saoudite, Qatar"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel organisme a examiné en juillet 2026 l'avenir de la force internationale contre les gangs en Haïti ?",
+    "options": [
+      "Le Conseil de sécurité de l'ONU",
+      "Le G7",
+      "L'Organisation mondiale du commerce",
+      "Le Parlement européen"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qui était Secrétaire général des Nations Unies durant la majeure partie de 2026 ?",
+    "options": [
+      "António Guterres",
+      "Ban Ki-moon",
+      "Kofi Annan",
+      "António Costa"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quand le mandat d'António Guterres en tant que Secrétaire général de l'ONU doit-il se terminer ?",
+    "options": [
+      "Fin 2026",
+      "Fin 2028",
+      "Fin 2030",
+      "Mi-2027"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quand a débuté officiellement le processus de sélection du nouveau Secrétaire général de l'ONU pour succéder à Guterres ?",
+    "options": [
+      "25 novembre 2025",
+      "1er janvier 2026",
+      "15 mars 2026",
+      "20 juin 2026"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle ancienne Première ministre néo-zélandaise a été candidate déclarée au poste de Secrétaire général de l'ONU en 2026 ?",
+    "options": [
+      "Jacinda Ardern",
+      "Helen Clark",
+      "Julia Gillard",
+      "Theresa May"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "En juillet 2026, sur quel sujet António Guterres a-t-il appelé à des contrôles mondiaux plus stricts ?",
+    "options": [
+      "L'intelligence artificielle",
+      "Le commerce du blé",
+      "Le tourisme spatial",
+      "La pêche en haute mer"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Combien de pays membres compte l'Union européenne en 2026 ?",
+    "options": [
+      "25",
+      "27",
+      "29",
+      "30"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Quelle institution européenne est dirigée par Ursula von der Leyen depuis 2019 ?",
+    "options": [
+      "La Commission européenne",
+      "Le Parlement européen",
+      "Le Conseil européen",
+      "La Banque centrale européenne"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays assure la présidence tournante du Conseil de l'Union européenne selon un roulement semestriel ?",
+    "options": [
+      "Un État membre différent tous les six mois",
+      "Toujours la France",
+      "Toujours l'Allemagne",
+      "Un pays tiré au sort chaque année"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qui est président des États-Unis en 2026 ?",
+    "options": [
+      "Donald Trump",
+      "Joe Biden",
+      "Kamala Harris",
+      "Barack Obama"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "De quel accord international les États-Unis se sont-ils retirés, ce retrait prenant effet le 27 janvier 2026 ?",
+    "options": [
+      "L'Accord de Paris sur le climat",
+      "L'accord sur l'Iran",
+      "L'OTAN",
+      "L'OMC"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qui est président de la République populaire de Chine en 2026 ?",
+    "options": [
+      "Xi Jinping",
+      "Li Qiang",
+      "Hu Jintao",
+      "Wang Huning"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel rôle la Chine cherche-t-elle à jouer vis-à-vis des économies en développement lors de la COP31 ?",
+    "options": [
+      "Partenaire stratégique du Sud global",
+      "Rôle purement d'observateur",
+      "Aucun rôle particulier",
+      "Opposant systématique aux négociations"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel conflit armé, déclenché en février 2022, se poursuit en 2026 en Europe de l'Est ?",
+    "options": [
+      "La guerre en Ukraine",
+      "La guerre du Golfe",
+      "La guerre des Malouines",
+      "La guerre en ex-Yougoslavie"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel territoire est au cœur du conflit israélo-palestinien qui s'est intensifié depuis octobre 2023 ?",
+    "options": [
+      "La bande de Gaza",
+      "Le Cachemire",
+      "Le Haut-Karabakh",
+      "Le Sahara occidental"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays du Sahel a connu plusieurs coups d'État entre 2020 et 2023, restant instable en 2026 ?",
+    "options": [
+      "Le Mali",
+      "Le Ghana",
+      "Le Sénégal",
+      "La Côte d'Ivoire"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle alliance de pays sahéliens, formée après les coups d'État, s'est retirée de la CEDEAO ?",
+    "options": [
+      "L'Alliance des États du Sahel (Mali, Burkina Faso, Niger)",
+      "L'Union du Maghreb arabe",
+      "La CEEAC",
+      "L'Union africaine"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qui est président du Chili en 2026 ?",
+    "options": [
+      "José Antonio Kast",
+      "Gabriel Boric",
+      "Sebastián Piñera",
+      "Michelle Bachelet"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays d'Amérique latine a proposé conjointement avec le Brésil et le Chili la candidature de Michelle Bachelet à l'ONU ?",
+    "options": [
+      "Le Mexique",
+      "L'Argentine",
+      "La Colombie",
+      "Le Pérou"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays d'Amérique du Sud connaît une crise politique et économique persistante sous la présidence de Nicolás Maduro ?",
+    "options": [
+      "Le Venezuela",
+      "L'Équateur",
+      "L'Uruguay",
+      "Le Paraguay"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays a fourni les troupes principales de la mission de sécurité multinationale en Haïti avant 2026 ?",
+    "options": [
+      "Le Kenya",
+      "Le Nigeria",
+      "L'Afrique du Sud",
+      "L'Égypte"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle organisation régionale regroupe la majorité des pays d'Afrique de l'Ouest ?",
+    "options": [
+      "La CEDEAO",
+      "La SADC",
+      "L'EAC",
+      "Le COMESA"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays africain a organisé la Coupe d'Afrique des Nations de football récemment (2025) ?",
+    "options": [
+      "Le Maroc",
+      "L'Égypte",
+      "Le Nigeria",
+      "L'Algérie"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays a formellement adhéré ou est en voie avancée d'adhésion à l'Union européenne, sujet suivi en 2026 ?",
+    "options": [
+      "L'Ukraine (candidat)",
+      "La Suisse",
+      "La Norvège",
+      "Le Royaume-Uni"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle institution basée à Genève est régulièrement citée pour ses rapports sur les droits humains en Haïti et ailleurs ?",
+    "options": [
+      "Le Conseil des droits de l'homme de l'ONU",
+      "L'OMC",
+      "Le CIO",
+      "La FIFA"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel département de l'ONU publie régulièrement des rapports sur la situation en Haïti via une mission intégrée ?",
+    "options": [
+      "Le BINUH (Bureau intégré des Nations Unies en Haïti)",
+      "L'UNESCO",
+      "L'UNICEF seul",
+      "Le PNUD seul"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel organisme international a averti en 2026 sur la propagation de « killer robots » liés à l'IA militaire ?",
+    "options": [
+      "Le Secrétaire général de l'ONU",
+      "L'Organisation mondiale de la santé",
+      "La Banque mondiale",
+      "L'OMPI"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "En juin 2026, sur quel enjeu climatique le Secrétaire général de l'ONU a-t-il insisté, en le qualifiant de combat gagnable ?",
+    "options": [
+      "La réduction du méthane",
+      "L'interdiction du charbon uniquement",
+      "La taxation du kérosène",
+      "Le nucléaire civil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle vague de chaleur a touché l'Europe fin juin 2026, motivant un appel de l'ONU sur le climat ?",
+    "options": [
+      "Une canicule meurtrière",
+      "Une vague de froid extrême",
+      "Des inondations générales",
+      "Une tempête de sable"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays a annoncé le retrait de son soutien à la candidature de Michelle Bachelet au poste de Secrétaire général de l'ONU en mars 2026 ?",
+    "options": [
+      "Le Chili",
+      "Le Brésil",
+      "Le Mexique",
+      "L'Argentine"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle candidate bulgare, dirigeante du FMI, a été proposée pour succéder à Guterres à l'ONU ?",
+    "options": [
+      "Kristalina Georgieva",
+      "Ursula von der Leyen",
+      "Christine Lagarde",
+      "Angela Merkel"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays sud-américain a proposé Rebeca Grynspan comme candidate au poste de Secrétaire général de l'ONU ?",
+    "options": [
+      "Le Costa Rica",
+      "L'Équateur",
+      "La Bolivie",
+      "L'Uruguay"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays a proposé la candidature de Macky Sall au poste de Secrétaire général de l'ONU en 2026 ?",
+    "options": [
+      "Le Burundi",
+      "Le Sénégal",
+      "Le Mali",
+      "La Côte d'Ivoire"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle organisation dirige les efforts diplomatiques de médiation autour du conflit à Gaza en 2025-2026 ?",
+    "options": [
+      "Une médiation impliquant Égypte, Qatar et États-Unis",
+      "L'Union africaine seule",
+      "L'ASEAN",
+      "Le Mercosur"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays a assumé la présidence tournante du Conseil de l'UE au premier semestre 2026 ?",
+    "options": [
+      "Chypre",
+      "L'Espagne",
+      "La Pologne",
+      "La Hongrie"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle entreprise a lancé les modèles Claude Fable 5 et Claude Mythos 5 en juin 2026 ?",
+    "options": [
+      "Anthropic",
+      "OpenAI",
+      "Google DeepMind",
+      "Meta"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Comment se nomme la nouvelle catégorie de modèles présentée par Anthropic au-dessus de la gamme Opus en 2026 ?",
+    "options": [
+      "Mythos",
+      "Titan",
+      "Genesis",
+      "Apex"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type d'entreprise développe le modèle Gemini ?",
+    "options": [
+      "Google DeepMind",
+      "Anthropic",
+      "OpenAI",
+      "xAI"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle entreprise développe les modèles GPT, comme GPT-5 ?",
+    "options": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Meta"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle entreprise développe les modèles Grok ?",
+    "options": [
+      "xAI (Elon Musk)",
+      "Anthropic",
+      "OpenAI",
+      "Baidu"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle entreprise française développe la famille de modèles Mistral ?",
+    "options": [
+      "Mistral AI",
+      "Anthropic",
+      "DeepMind",
+      "Naver"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays a organisé la World Artificial Intelligence Conference où le Secrétaire général de l'ONU est intervenu en 2026 ?",
+    "options": [
+      "La Chine",
+      "Le Japon",
+      "Les États-Unis",
+      "Singapour"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle agence spatiale prévoit un retour d'astronautes sur la Lune dans le cadre du programme Artemis ?",
+    "options": [
+      "La NASA",
+      "L'ESA",
+      "Roscosmos",
+      "L'ISRO"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle entreprise privée développe la fusée Starship destinée notamment aux missions lunaires et martiennes ?",
+    "options": [
+      "SpaceX",
+      "Blue Origin",
+      "Boeing",
+      "Rocket Lab"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays a fait alunir avec succès plusieurs missions robotiques sur la Lune ces dernières années (Chandrayaan) ?",
+    "options": [
+      "L'Inde",
+      "Le Brésil",
+      "L'Indonésie",
+      "L'Égypte"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel télescope spatial, successeur de Hubble, est opérationnel depuis fin 2021 et fournit des images profondes de l'univers ?",
+    "options": [
+      "Le télescope spatial James Webb",
+      "Le télescope Kepler",
+      "Le télescope Spitzer",
+      "Le télescope Gaia"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle agence gère la Station spatiale internationale (ISS) en coopération avec plusieurs pays ?",
+    "options": [
+      "Un consortium NASA/Roscosmos/ESA/JAXA/CSA",
+      "L'ONU seule",
+      "SpaceX seule",
+      "La Chine seule"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle station spatiale la Chine exploite-t-elle en orbite depuis son achèvement en 2022 ?",
+    "options": [
+      "La station Tiangong",
+      "La station Mir",
+      "La station Skylab",
+      "La station Salyut"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type de technologie d'édition génétique, récompensée par un prix Nobel, permet de modifier précisément l'ADN ?",
+    "options": [
+      "CRISPR-Cas9",
+      "La PCR",
+      "Le séquençage Sanger",
+      "La thérapie génique virale seule"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel phénomène climatique périodique dans le Pacifique influence fortement la météo mondiale (chaleur, sécheresses) ?",
+    "options": [
+      "El Niño",
+      "La mousson africaine",
+      "L'oscillation nord-atlantique seule",
+      "Le courant du Labrador"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle avancée médicale majeure des années 2020 a permis de développer rapidement des vaccins, notamment contre la Covid-19 ?",
+    "options": [
+      "La technologie de l'ARN messager",
+      "La thérapie par ondes",
+      "L'homéopathie renforcée",
+      "La chirurgie robotique seule"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel gaz est le principal responsable de l'effet de serre d'origine humaine ?",
+    "options": [
+      "Le dioxyde de carbone (CO2)",
+      "L'azote",
+      "L'oxygène",
+      "L'hélium"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel super-polluant, autre que le CO2, est ciblé par les campagnes internationales car il concentre une part importante du réchauffement ?",
+    "options": [
+      "Le méthane",
+      "L'argon",
+      "Le néon",
+      "L'hydrogène"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type de véhicule connaît un essor rapide dans le monde pour réduire les émissions du secteur automobile ?",
+    "options": [
+      "Le véhicule électrique",
+      "Le véhicule à vapeur",
+      "Le véhicule à hydrogène liquide uniquement",
+      "Le véhicule à charbon"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type de réacteur nucléaire de petite taille suscite un regain d'intérêt pour la production d'électricité bas-carbone ?",
+    "options": [
+      "Le petit réacteur modulaire (SMR)",
+      "Le réacteur à eau lourde uniquement",
+      "Le réacteur à sel fondu du XIXe siècle",
+      "Le réacteur à charbon"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel domaine scientifique étudie les exoplanètes, ces planètes situées hors de notre système solaire ?",
+    "options": [
+      "L'astronomie / l'exoplanétologie",
+      "La géologie",
+      "L'océanographie",
+      "La météorologie"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Que signifie l'acronyme IA, largement utilisé dans l'actualité technologique de 2026 ?",
+    "options": [
+      "Intelligence artificielle",
+      "Information automatisée",
+      "Interface avancée",
+      "Internet avancé"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type de puce électronique est particulièrement recherché pour entraîner les grands modèles d'intelligence artificielle ?",
+    "options": [
+      "Les puces GPU (processeurs graphiques)",
+      "Les disquettes",
+      "Les cartes perforées",
+      "Les tubes à vide"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle agence des Nations Unies s'occupe des questions de propriété intellectuelle liées notamment aux innovations technologiques ?",
+    "options": [
+      "L'OMPI",
+      "L'OMS",
+      "L'UNESCO",
+      "L'OIT"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle entreprise développe la méga-constellation de satellites Starlink pour l'internet par satellite ?",
+    "options": [
+      "SpaceX",
+      "Amazon (Kuiper)",
+      "OneWeb",
+      "Boeing"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quelle ville la COP31 se tient-elle en novembre 2026 ?",
+    "options": [
+      "Antalya, en Turquie",
+      "Canberra, en Australie",
+      "Belém, au Brésil",
+      "Bakou, en Azerbaïdjan"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays assure la présidence des négociations de la COP31, alors que la conférence se tient en Turquie ?",
+    "options": [
+      "L'Australie",
+      "Le Royaume-Uni",
+      "L'Allemagne",
+      "Le Canada"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quelle ville s'est tenue la COP30, en 2025 ?",
+    "options": [
+      "Belém, au Brésil",
+      "Dubaï",
+      "Glasgow",
+      "Charm el-Cheikh"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel document est issu de la COP30 de Belém, portant notamment sur la transition juste et le financement de l'adaptation ?",
+    "options": [
+      "Le Belém Package",
+      "Les Accords de Kyoto",
+      "Le Protocole de Montréal",
+      "L'Accord de Copenhague"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel accord international de 2015 vise à limiter le réchauffement climatique bien en dessous de 2°C ?",
+    "options": [
+      "L'Accord de Paris",
+      "Le Protocole de Kyoto",
+      "La Convention de Vienne",
+      "Le Traité de Maastricht"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle organisation onusienne coordonne les négociations climatiques mondiales (COP) ?",
+    "options": [
+      "La CCNUCC (Convention-cadre des Nations Unies sur les changements climatiques)",
+      "L'OMS",
+      "L'OACI",
+      "L'AIEA"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type de phénomène météorologique extrême a touché l'Europe fin juin 2026 ?",
+    "options": [
+      "Une canicule",
+      "Une tempête de neige",
+      "Un typhon",
+      "Une éruption volcanique"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type de catastrophe naturelle reste une menace récurrente pour Haïti, en plus des ouragans ?",
+    "options": [
+      "Les séismes",
+      "Les avalanches",
+      "Les tornades de type F5 fréquentes",
+      "Le blizzard"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel phénomène désigne la fonte accélérée des glaciers et de la banquise liée au réchauffement climatique ?",
+    "options": [
+      "La fonte cryosphérique",
+      "La photosynthèse inverse",
+      "L'upwelling",
+      "La subduction"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type d'énergie renouvelable connaît la croissance la plus rapide dans le monde en 2026 ?",
+    "options": [
+      "Le solaire photovoltaïque",
+      "Le charbon",
+      "Le pétrole",
+      "Le gaz naturel"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel accord international vise à protéger la couche d'ozone en limitant les substances qui l'appauvrissent ?",
+    "options": [
+      "Le Protocole de Montréal",
+      "L'Accord de Paris",
+      "Le Protocole de Kyoto",
+      "La Convention de Bâle"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel phénomène décrit la perte accélérée d'espèces animales et végétales à l'échelle mondiale ?",
+    "options": [
+      "L'érosion de la biodiversité",
+      "La désertification uniquement",
+      "L'eutrophisation",
+      "La salinisation des sols"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type de pollution plastique touche particulièrement les océans et fait l'objet de négociations internationales ?",
+    "options": [
+      "Les microplastiques et déchets plastiques marins",
+      "La pollution sonore sous-marine uniquement",
+      "La pollution lumineuse",
+      "La pollution thermique des rivières"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle institution financière multilatérale finance des projets d'adaptation climatique dans les pays en développement ?",
+    "options": [
+      "Le Fonds vert pour le climat",
+      "La Banque des règlements internationaux",
+      "L'OCDE",
+      "Le G20"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type de catastrophe a nécessité l'évacuation de la Zone bleue lors de la COP30 à Belém en 2025 ?",
+    "options": [
+      "Un incendie accidentel",
+      "Une inondation",
+      "Un tremblement de terre",
+      "Une tempête tropicale"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type de bloc politique émergent s'affirme de plus en plus dans les négociations climatiques, selon les observateurs de la COP31 ?",
+    "options": [
+      "Le « Sud global »",
+      "Le bloc scandinave",
+      "Le G7 seul",
+      "L'OTAN"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel secteur économique est le plus souvent visé par les politiques de réduction des émissions de CO2 ?",
+    "options": [
+      "Le secteur de l'énergie (combustibles fossiles)",
+      "Le secteur de l'artisanat",
+      "Le secteur du textile artisanal",
+      "Le secteur de la pêche côtière"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type de risque climatique augmente la vulnérabilité des petits États insulaires, comme dans les Caraïbes ?",
+    "options": [
+      "La montée du niveau de la mer et les ouragans",
+      "Le refroidissement global",
+      "La désertification intérieure",
+      "L'avancée des glaciers"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle ville accueillera la COP32, après la COP31 d'Antalya ?",
+    "options": [
+      "Addis-Abeba, en Éthiopie",
+      "Paris",
+      "New Delhi",
+      "Tokyo"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quels trois pays coorganisent la Coupe du monde de football 2026 ?",
+    "options": [
+      "États-Unis, Canada, Mexique",
+      "Brésil, Argentine, Uruguay",
+      "France, Allemagne, Espagne",
+      "Qatar, Arabie saoudite, Émirats"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Combien d'équipes participent à la Coupe du monde 2026, pour la première fois dans l'histoire ?",
+    "options": [
+      "32",
+      "40",
+      "48",
+      "64"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Où s'est joué le match d'ouverture de la Coupe du monde 2026, le 11 juin ?",
+    "options": [
+      "À l'Estadio Azteca de Mexico",
+      "Au MetLife Stadium de New York",
+      "Au BC Place de Vancouver",
+      "Au stade des Lions de Miami"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel stade a accueilli la finale de la Coupe du monde 2026, le 19 juillet ?",
+    "options": [
+      "Le MetLife Stadium (New Jersey)",
+      "L'Estadio Azteca",
+      "Le SoFi Stadium",
+      "Le Rose Bowl"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle équipe a remporté la Coupe du monde 2026 ?",
+    "options": [
+      "L'Espagne",
+      "L'Argentine",
+      "La France",
+      "Le Brésil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle équipe a été battue en finale de la Coupe du monde 2026 ?",
+    "options": [
+      "L'Argentine",
+      "La France",
+      "L'Angleterre",
+      "Le Brésil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel a été le score final (après prolongation) de la finale Espagne-Argentine 2026 ?",
+    "options": [
+      "1-0",
+      "2-1",
+      "0-0 (tab)",
+      "3-2"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel joueur a marqué le but décisif de la finale de la Coupe du monde 2026 ?",
+    "options": [
+      "Ferran Torres",
+      "Lamine Yamal",
+      "Lionel Messi",
+      "Kylian Mbappé"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Combien de titres mondiaux l'Espagne compte-t-elle après sa victoire de 2026 ?",
+    "options": [
+      "Deux (2010 et 2026)",
+      "Un seul",
+      "Trois",
+      "Quatre"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle équipe a terminé troisième de la Coupe du monde 2026, en battant la France ?",
+    "options": [
+      "L'Angleterre",
+      "Les Pays-Bas",
+      "Le Portugal",
+      "L'Allemagne"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel a été le résultat de la demi-finale entre l'Espagne et la France en 2026 ?",
+    "options": [
+      "Victoire de l'Espagne 2-0",
+      "Victoire de la France 2-1",
+      "Match nul 1-1 (tab)",
+      "Victoire de l'Espagne 3-1"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel a été le résultat de la demi-finale entre l'Argentine et l'Angleterre en 2026 ?",
+    "options": [
+      "Victoire de l'Argentine 2-1",
+      "Victoire de l'Angleterre 2-1",
+      "Match nul 1-1 (tab)",
+      "Victoire de l'Argentine 3-0"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le premier pays à accueillir la Coupe du monde à trois reprises, avec l'édition 2026 ?",
+    "options": [
+      "Le Mexique",
+      "Le Brésil",
+      "L'Italie",
+      "L'Allemagne"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Combien de villes hôtes accueillent des matchs de la Coupe du monde 2026 ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "10"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Combien de villes hôtes se trouvent aux États-Unis ?",
+    "options": [
+      "11",
+      "8",
+      "14",
+      "6"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel stade, jamais utilisé auparavant pour la Coupe du monde, accueille des matchs au Canada en 2026 ?",
+    "options": [
+      "Le BC Place de Vancouver",
+      "Le Maracanã",
+      "Le Camp Nou",
+      "Le Wembley Stadium"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quelle ville canadienne le premier match de la Coupe du monde au Canada a-t-il eu lieu ?",
+    "options": [
+      "Toronto",
+      "Vancouver",
+      "Montréal",
+      "Ottawa"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel groupe la France a-t-elle disputé lors de la phase de groupes 2026 (adversaires) ?",
+    "options": [
+      "Sénégal, Irak, Norvège",
+      "Brésil, Maroc, Écosse",
+      "Argentine, Chili, Pérou",
+      "Angleterre, Pays de Galles, Écosse"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quelle ville la France a-t-elle joué son dernier match de groupe contre la Norvège ?",
+    "options": [
+      "Boston (Gillette Stadium)",
+      "Los Angeles",
+      "Miami",
+      "Houston"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Contre quelle équipe la France a-t-elle disputé son premier match de la Coupe du monde 2026, au MetLife Stadium ?",
+    "options": [
+      "Le Sénégal",
+      "L'Irak",
+      "La Norvège",
+      "Le Maroc"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel joueur argentin est mentionné comme s'étant rapproché du record de buts en Coupe du monde lors de l'édition 2026 ?",
+    "options": [
+      "Lionel Messi",
+      "Julián Álvarez",
+      "Ángel Di María",
+      "Rodrigo De Paul"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel record de buteur en Coupe du monde Lionel Messi visait-il en 2026 ?",
+    "options": [
+      "Le record de Miroslav Klose (16 buts)",
+      "Le record de Pelé",
+      "Le record de Just Fontaine en une édition",
+      "Le record de Ronaldo Nazário"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Combien de matchs comporte au total la Coupe du monde 2026, du fait de l'élargissement à 48 équipes ?",
+    "options": [
+      "104 matchs",
+      "64 matchs",
+      "80 matchs",
+      "48 matchs"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel nouveau tour a été introduit dans le format à 48 équipes de la Coupe du monde 2026 ?",
+    "options": [
+      "Un tour de seizièmes de finale",
+      "Un tour de quarts de finale supplémentaire",
+      "Une finale à deux matchs",
+      "Un tour de qualification final"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle chanson, interprétée par Jelly Roll et Carín León, a été dévoilée en mars 2026 comme extrait de l'album officiel de la Coupe du monde ?",
+    "options": [
+      "Lighter",
+      "We Are One",
+      "Live It Up",
+      "Waka Waka"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Combien de fédérations ont voté en 2018 pour désigner le pays hôte de la Coupe du monde 2026 ?",
+    "options": [
+      "203 fédérations membres de la FIFA",
+      "50 fédérations seulement",
+      "32 fédérations",
+      "150 fédérations"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Contre quel candidat le trio nord-américain (USA-Canada-Mexique) l'a-t-il emporté pour l'organisation de 2026 ?",
+    "options": [
+      "Le Maroc",
+      "L'Espagne-Portugal",
+      "L'Argentine-Uruguay",
+      "L'Arabie saoudite"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle est la capacité approximative du stade Estadio Azteca, qui a accueilli le match d'ouverture 2026 ?",
+    "options": [
+      "Environ 87 000 places",
+      "Environ 40 000 places",
+      "Environ 60 000 places",
+      "Environ 100 000 places"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle est la capacité approximative du MetLife Stadium, qui a accueilli la finale 2026 ?",
+    "options": [
+      "Environ 82 500 places",
+      "Environ 50 000 places",
+      "Environ 65 000 places",
+      "Environ 95 000 places"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le nom du président de la FIFA en 2026 ?",
+    "options": [
+      "Gianni Infantino",
+      "Sepp Blatter",
+      "Michel Platini",
+      "Joseph Blatter"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel pays se sont déroulés les Jeux olympiques d'hiver de 2026 ?",
+    "options": [
+      "L'Italie (Milan-Cortina)",
+      "La France",
+      "La Norvège",
+      "Le Japon"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "À quelles dates se sont déroulés les Jeux olympiques d'hiver de Milan-Cortina 2026 ?",
+    "options": [
+      "Du 6 au 22 février 2026",
+      "Du 1er au 15 janvier 2026",
+      "Du 10 au 28 mars 2026",
+      "Du 20 février au 10 mars 2026"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel stade s'est tenue la cérémonie d'ouverture des JO d'hiver 2026 ?",
+    "options": [
+      "Le stade San Siro de Milan",
+      "Le Colisée de Rome",
+      "Le stade olympique de Turin",
+      "Le Camp Nou"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le thème de la cérémonie d'ouverture des JO d'hiver de Milan-Cortina 2026 ?",
+    "options": [
+      "« Armonia » (Harmonie)",
+      "« Unità »",
+      "« Fuoco »",
+      "« Speranza »"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle nouvelle discipline a fait ses débuts olympiques lors des Jeux d'hiver 2026 ?",
+    "options": [
+      "Le ski-alpinisme",
+      "Le snowboard",
+      "Le curling",
+      "Le patinage de vitesse"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays a terminé en tête du tableau des médailles des JO d'hiver 2026 ?",
+    "options": [
+      "La Norvège",
+      "Les États-Unis",
+      "L'Allemagne",
+      "Le Canada"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Combien de médailles d'or la Norvège a-t-elle remportées aux JO d'hiver 2026 ?",
+    "options": [
+      "18",
+      "12",
+      "24",
+      "9"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays a terminé deuxième au tableau des médailles des JO d'hiver 2026 ?",
+    "options": [
+      "Les États-Unis",
+      "L'Allemagne",
+      "Les Pays-Bas",
+      "La France"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays a terminé troisième au tableau des médailles des JO d'hiver 2026 ?",
+    "options": [
+      "Les Pays-Bas",
+      "L'Italie",
+      "L'Allemagne",
+      "La Suède"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "À quelle place la France a-t-elle terminé au classement des médailles des JO d'hiver 2026 ?",
+    "options": [
+      "6e place",
+      "1re place",
+      "10e place",
+      "20e place"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Combien d'athlètes environ ont participé aux JO d'hiver de Milan-Cortina 2026 ?",
+    "options": [
+      "Plus de 3 500",
+      "Environ 1 000",
+      "Environ 10 000",
+      "Environ 500"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Combien de disciplines sportives figuraient au programme des JO d'hiver 2026 ?",
+    "options": [
+      "16",
+      "10",
+      "20",
+      "25"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Où la flamme olympique des JO d'hiver 2026 a-t-elle été allumée ?",
+    "options": [
+      "À Olympie, en Grèce",
+      "À Rome",
+      "À Milan",
+      "À Turin"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel footballeur a longtemps détenu le record de buts marqués en phase finale de Coupe du monde avant l'édition 2026 ?",
+    "options": [
+      "Miroslav Klose",
+      "Pelé",
+      "Ronaldo Nazário",
+      "Gerd Müller"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle équipe était tenante du titre mondial de football avant la Coupe du monde 2026 ?",
+    "options": [
+      "L'Argentine (championne 2022)",
+      "La France",
+      "L'Allemagne",
+      "Le Brésil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle équipe de football a remporté la Coupe du monde 2022 au Qatar ?",
+    "options": [
+      "L'Argentine",
+      "La France",
+      "Le Brésil",
+      "L'Espagne"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel club de football français a remporté la Coupe de France en battant Nice en finale, en mai 2026 ?",
+    "options": [
+      "Le RC Lens",
+      "Le PSG",
+      "L'OM",
+      "L'AS Monaco"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quelle discipline la France comptait-elle sur Emily Harrop et Thibault Anselmet pour des médailles en 2026 ?",
+    "options": [
+      "Le ski-alpinisme",
+      "Le biathlon",
+      "Le patinage artistique",
+      "Le bobsleigh"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays est historiquement la nation la plus médaillée de l'histoire des Jeux olympiques d'hiver ?",
+    "options": [
+      "La Norvège",
+      "Les États-Unis",
+      "L'Allemagne",
+      "La Russie"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle date marque la fin du mandat du Conseil présidentiel de transition en Haïti ?",
+    "options": [
+      "Le 7 février 2026",
+      "Le 1er janvier 2026",
+      "Le 14 juillet 2026",
+      "Le 31 décembre 2026"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle date marque l'ouverture des Jeux olympiques d'hiver de Milan-Cortina ?",
+    "options": [
+      "Le 6 février 2026",
+      "Le 1er février 2026",
+      "Le 22 février 2026",
+      "Le 14 février 2026"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle date marque la finale de la Coupe du monde de football 2026 ?",
+    "options": [
+      "Le 19 juillet 2026",
+      "Le 11 juin 2026",
+      "Le 14 juillet 2026",
+      "Le 1er août 2026"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle date marque le début de la Coupe du monde de football 2026 ?",
+    "options": [
+      "Le 11 juin 2026",
+      "Le 1er juin 2026",
+      "Le 20 juin 2026",
+      "Le 19 juillet 2026"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quand se tient la COP31 sur le climat, à Antalya ?",
+    "options": [
+      "Du 9 au 20 novembre 2026",
+      "Du 1er au 15 octobre 2026",
+      "Du 5 au 15 décembre 2026",
+      "Du 20 janvier au 1er février 2026"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quand le retrait des États-Unis de l'Accord de Paris a-t-il pris effet ?",
+    "options": [
+      "Le 27 janvier 2026",
+      "Le 1er janvier 2026",
+      "Le 4 juillet 2026",
+      "Le 31 décembre 2025"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel Premier ministre haïtien est devenu, en 2026, la seule figure du pouvoir exécutif du pays ?",
+    "options": [
+      "Alix Didier Fils-Aimé",
+      "Ariel Henry",
+      "Garry Conille",
+      "Claude Joseph"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel footballeur a rendu hommage à Diego Maradona en battant de nouveaux records lors de la Coupe du monde 2026 ?",
+    "options": [
+      "Lionel Messi",
+      "Julián Álvarez",
+      "Kylian Mbappé",
+      "Neymar"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel Secrétaire général de l'ONU a présenté ses priorités climatiques pour 2026 ?",
+    "options": [
+      "António Guterres",
+      "Ban Ki-moon",
+      "Kofi Annan",
+      "Boutros Boutros-Ghali"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type d'événement culturel majeur rassemble régulièrement les artistes du monde entier autour du cinéma, comme le Festival de Cannes ?",
+    "options": [
+      "Un festival de cinéma",
+      "Un salon automobile",
+      "Un sommet économique",
+      "Une foire agricole"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel prix international récompense chaque année des œuvres littéraires marquantes, remis à Stockholm ?",
+    "options": [
+      "Le prix Nobel de littérature",
+      "Le prix Goncourt",
+      "Le prix Booker",
+      "Le prix Pulitzer"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel événement musical international rassemble chaque année des pays pour une compétition de chansons, remporté par différents pays européens ?",
+    "options": [
+      "Le Concours Eurovision de la chanson",
+      "Le Festival de Salzbourg",
+      "Le MTV Music Video Award",
+      "Le Coachella"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type de cinéma haïtien et caribéen est mis en valeur lors de festivals régionaux consacrés à la diaspora ?",
+    "options": [
+      "Le cinéma créolophone et caribéen",
+      "Le cinéma muet",
+      "Le western spaghetti",
+      "Le cinéma scandinave"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel joueur de football espagnol a marqué le but vainqueur de la finale de la Coupe du monde 2026 ?",
+    "options": [
+      "Ferran Torres",
+      "Pedri",
+      "Lamine Yamal",
+      "Rodri"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel jeune prodige espagnol du FC Barcelone était très attendu lors de la Coupe du monde 2026 ?",
+    "options": [
+      "Lamine Yamal",
+      "Pedri",
+      "Gavi",
+      "Ansu Fati"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quand le nouveau Secrétaire général de l'ONU, succédant à Guterres, doit-il prendre ses fonctions ?",
+    "options": [
+      "Le 1er janvier 2027",
+      "Le 1er janvier 2026",
+      "Le 31 décembre 2026",
+      "Le 1er juillet 2027"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le nom du président de la Commission européenne évoqué dans l'actualité politique de l'UE en 2026 ?",
+    "options": [
+      "Ursula von der Leyen",
+      "Charles Michel",
+      "Roberta Metsola",
+      "Jean-Claude Juncker"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle grande compétition musicale ou cinématographique a lieu chaque année en France, à Cannes, dédiée au septième art ?",
+    "options": [
+      "Le Festival de Cannes",
+      "Les Victoires de la musique",
+      "Les César",
+      "La Fête de la musique"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle date symbolique marque l'indépendance d'Haïti, célébrée chaque année ?",
+    "options": [
+      "Le 1er janvier",
+      "Le 14 juillet",
+      "Le 4 juillet",
+      "Le 12 octobre"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type d'artisanat traditionnel, notamment la sculpture sur métal recyclé (fer découpé), est emblématique de la culture haïtienne ?",
+    "options": [
+      "La ferronnerie d'art de Croix-des-Bouquets",
+      "La poterie berbère",
+      "La marqueterie suisse",
+      "La verrerie vénitienne"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel caciquat Christophe Colomb a-t-il débarqué en 1492 ?",
+    "options": [
+      "Le Marien",
+      "Le Xaragua",
+      "La Maguana",
+      "Le Higuey"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel cacique régnait sur le territoire où Christophe Colomb a débarqué ?",
+    "options": [
+      "Guacanagaric",
+      "Caonabo",
+      "Anacaona",
+      "Henri"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Comment se nommait le fort construit par les Espagnols avec les débris de la Santa-Maria, échouée en décembre 1492 ?",
+    "options": [
+      "Le Fort de la Nativité",
+      "Le Fort Ogé",
+      "Le Fort Jacques",
+      "Le Fort Picolet"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "En combien de caciquats l'île était-elle divisée à l'arrivée de Christophe Colomb ?",
+    "options": [
+      "Cinq",
+      "Trois",
+      "Sept",
+      "Deux"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Comment se nommaient les premiers habitants amérindiens de l'île d'Haïti ?",
+    "options": [
+      "Les Arawaks (Taïnos)",
+      "Les Aztèques",
+      "Les Mayas",
+      "Les Incas"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel nom les Espagnols ont-ils donné au système de répartition des terres et des indigènes entre colons ?",
+    "options": [
+      "Les repartimientos",
+      "Les encomiendas seules",
+      "Les latifundia",
+      "Les corregimientos"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Sous quel gouverneur espagnol la traite des Africains a-t-elle commencé sur l'île, en 1503 ?",
+    "options": [
+      "Nicolas Ovando",
+      "Bartolomé de Las Casas",
+      "Diego Colomb",
+      "Vasco de Gama"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "En quelle année les premiers aventuriers français se sont-ils établis sur l'île de la Tortue ?",
+    "options": [
+      "1625",
+      "1697",
+      "1804",
+      "1791"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Par quel traité l'Espagne a-t-elle cédé la partie occidentale de l'île à la France, en 1697 ?",
+    "options": [
+      "Le traité de Ryswick",
+      "Le traité de Bâle",
+      "Le traité de Vienne",
+      "Le traité de Versailles"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel traité, paraphé le 22 juillet 1795, a permis à la France d'obtenir l'île entière ?",
+    "options": [
+      "Le traité de Bâle",
+      "Le traité de Ryswick",
+      "Le traité d'Amiens",
+      "Le traité de Paris"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle cérémonie du 14 août 1791 est considérée comme le point de départ de la révolte des esclaves ?",
+    "options": [
+      "La cérémonie du Bois-Caïman",
+      "Le traité de Ryswick",
+      "La proclamation de Sonthonax",
+      "Le sacre de Dessalines"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quelle commune se trouve le lieu historique du Bois-Caïman ?",
+    "options": [
+      "La Plaine du Nord",
+      "Cap-Haïtien centre",
+      "Milot",
+      "Limonade"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qui conduisait la cérémonie du Bois-Caïman en août 1791 ?",
+    "options": [
+      "Boukman",
+      "Toussaint Louverture",
+      "Jean-Jacques Dessalines",
+      "Henri Christophe"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quand a eu lieu la révolte générale des esclaves du Nord, quelques jours après le Bois-Caïman ?",
+    "options": [
+      "Le 22 août 1791",
+      "Le 1er janvier 1804",
+      "Le 18 novembre 1803",
+      "Le 29 août 1793"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qui a proclamé la liberté générale des esclaves du Nord, en août 1793 ?",
+    "options": [
+      "Léger-Félicité Sonthonax",
+      "Étienne Polverel",
+      "Toussaint Louverture",
+      "Vincent Ogé"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qui a proclamé la liberté générale des esclaves de l'Ouest et du Sud ?",
+    "options": [
+      "Étienne Polverel",
+      "Sonthonax",
+      "Toussaint Louverture",
+      "Rochambeau"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle guerre a opposé Toussaint Louverture à André Rigaud en 1800 ?",
+    "options": [
+      "La guerre du Sud",
+      "La guerre de l'indépendance",
+      "La guerre des Cayes",
+      "La guerre civile de l'Ouest"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "En quelle année Toussaint Louverture a-t-il été arrêté par le général français Brunet ?",
+    "options": [
+      "1802",
+      "1801",
+      "1803",
+      "1804"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Sur quel navire Toussaint Louverture a-t-il été transporté vers la France ?",
+    "options": [
+      "Le Héros",
+      "Le Créole",
+      "La Santa-Maria",
+      "Le Redoutable"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle bataille du 18 novembre 1803 a scellé la victoire décisive de l'armée indigène sur les troupes françaises ?",
+    "options": [
+      "La bataille de Vertières",
+      "La bataille de Ravine-à-Couleuvre",
+      "La bataille de la Crête-à-Pierrot",
+      "La bataille du Pont-Rouge"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qui est considéré comme le héros de la bataille de Vertières ?",
+    "options": [
+      "Capois-La-Mort",
+      "Toussaint Louverture",
+      "Alexandre Pétion",
+      "Henri Christophe"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle femme a pris les armes lors de la bataille de la Crête-à-Pierrot pour galvaniser les troupes indigènes ?",
+    "options": [
+      "Marie-Jeanne Lamartinière",
+      "Anacaona",
+      "Sanite Belair",
+      "Cécile Fatiman"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle date marque la proclamation de l'indépendance d'Haïti, aux Gonaïves ?",
+    "options": [
+      "Le 1er janvier 1804",
+      "Le 18 novembre 1803",
+      "Le 22 août 1791",
+      "Le 17 octobre 1806"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qui est considéré comme le premier rédacteur de l'acte de l'indépendance d'Haïti ?",
+    "options": [
+      "Juste Chanlatte",
+      "Boisrond-Tonnerre",
+      "Toussaint Louverture",
+      "Jean-Jacques Dessalines"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qui a été proclamé premier chef de l'État haïtien indépendant en 1804 ?",
+    "options": [
+      "Jean-Jacques Dessalines",
+      "Alexandre Pétion",
+      "Henri Christophe",
+      "Toussaint Louverture"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Par qui Jean-Jacques Dessalines a-t-il été couronné empereur d'Haïti ?",
+    "options": [
+      "Le père Corneille Brelle",
+      "Le pape Pie VII",
+      "Toussaint Louverture",
+      "Alexandre Pétion"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "En quelle année Jean-Jacques Dessalines a-t-il été assassiné au Pont-Rouge ?",
+    "options": [
+      "1806",
+      "1804",
+      "1811",
+      "1820"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle bataille a opposé les troupes de Pétion et de Christophe peu après l'indépendance ?",
+    "options": [
+      "La bataille de Sibert",
+      "La bataille de Vertières",
+      "La bataille de Marmelade",
+      "La bataille de Léogâne"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel roi haïtien s'est donné la mort en 1820, frappé d'apoplexie, plutôt que d'être capturé ?",
+    "options": [
+      "Henri Christophe",
+      "Jean-Jacques Dessalines",
+      "Alexandre Pétion",
+      "Jean-Pierre Boyer"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel titre Jean-Pierre Boyer s'est-il attribué après avoir maté la révolte de Goman dans la Grand'Anse ?",
+    "options": [
+      "Pacificateur de la Grande-Anse",
+      "Empereur d'Haïti",
+      "Protecteur du peuple",
+      "Libérateur du Sud"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Où et en quelle année a été rédigé le Manifeste de Praslin ?",
+    "options": [
+      "Aux Cayes, en 1842",
+      "À Port-au-Prince, en 1804",
+      "Au Cap-Haïtien, en 1820",
+      "À Jérémie, en 1867"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "En quelle année a débuté la première occupation américaine d'Haïti ?",
+    "options": [
+      "1915",
+      "1934",
+      "1957",
+      "1804"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "En quelle année a pris fin la première occupation américaine d'Haïti ?",
+    "options": [
+      "1934",
+      "1915",
+      "1946",
+      "1957"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel dictateur haïtien, surnommé « Papa Doc », a dirigé le pays de 1957 à 1971 ?",
+    "options": [
+      "François Duvalier",
+      "Jean-Claude Duvalier",
+      "Paul Magloire",
+      "Élie Lescot"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qui a succédé à François Duvalier à la tête d'Haïti, surnommé « Baby Doc » ?",
+    "options": [
+      "Jean-Claude Duvalier",
+      "Henri Namphy",
+      "Leslie Manigat",
+      "Prosper Avril"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "En quelle année Jean-Claude Duvalier a-t-il été renversé et contraint à l'exil ?",
+    "options": [
+      "1986",
+      "1971",
+      "1994",
+      "2004"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel président haïtien a été renversé par un coup d'État militaire en 1991 puis rétabli en 1994 ?",
+    "options": [
+      "Jean-Bertrand Aristide",
+      "René Préval",
+      "Leslie Manigat",
+      "Michel Martelly"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel séisme majeur a frappé Haïti le 12 janvier 2010 ?",
+    "options": [
+      "Le séisme de Port-au-Prince (magnitude 7)",
+      "Le séisme de Cap-Haïtien",
+      "Le séisme du Cap-Haïtien de 1842",
+      "Le séisme des Cayes de 2021"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quels départements sont limitrophes du département de la Grand'Anse ?",
+    "options": [
+      "Les Nippes et le Sud",
+      "Le Nord et le Nord-Est",
+      "L'Artibonite et le Centre",
+      "L'Ouest et le Sud-Est"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel département se trouve la Forêt des Pins ?",
+    "options": [
+      "L'Ouest (et le Sud-Est)",
+      "Le Nord",
+      "L'Artibonite",
+      "La Grand'Anse"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "À quel département appartient l'île de la Navase ?",
+    "options": [
+      "Le Sud",
+      "Le Nord-Ouest",
+      "La Grand'Anse",
+      "Les Nippes"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "À quel département appartient l'île de la Tortue ?",
+    "options": [
+      "Le Nord-Ouest",
+      "Le Nord",
+      "Le Sud",
+      "L'Artibonite"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel département se trouve la ville de Plaisance-du-Sud ?",
+    "options": [
+      "Les Nippes",
+      "Le Sud",
+      "L'Artibonite",
+      "Le Centre"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle est la superficie approximative de l'île d'Haïti (Quisqueya), partagée entre Haïti et la République dominicaine ?",
+    "options": [
+      "Environ 76 480 km²",
+      "Environ 27 750 km²",
+      "Environ 110 000 km²",
+      "Environ 50 000 km²"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Outre l'Ile-à-Vache et la Navase, quelle autre île adjacente se trouve dans le département du Sud ?",
+    "options": [
+      "La Grosse Caye",
+      "La Gonâve",
+      "La Tortue",
+      "La Grosse Cayemite"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel département se trouve la Grotte Marie-Jeanne ?",
+    "options": [
+      "Le Sud",
+      "L'Artibonite",
+      "Le Nord",
+      "Le Centre"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel département se trouve le site historique de la Ravine à Couleuvre ?",
+    "options": [
+      "L'Artibonite",
+      "Le Nord",
+      "L'Ouest",
+      "Le Sud-Est"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quelle commune trouve-t-on le sel de table de manière traditionnelle en Haïti ?",
+    "options": [
+      "Anse-Rouge",
+      "Léogâne",
+      "Jacmel",
+      "Fort-Liberté"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quelle région trouve-t-on des gisements de cuivre en Haïti ?",
+    "options": [
+      "Le Massif du Nord",
+      "La Plaine du Cul-de-Sac",
+      "La Plaine des Cayes",
+      "La Presqu'île du Sud"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel département se trouve la chaîne de montagnes de Vallières ?",
+    "options": [
+      "Le Nord-Est",
+      "Le Nord-Ouest",
+      "Le Sud",
+      "La Grand'Anse"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel département se trouve le Palais Sans-Souci, construit par Henri Christophe ?",
+    "options": [
+      "Le Nord",
+      "L'Ouest",
+      "Le Sud-Est",
+      "Le Centre"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel département se trouve le lac de Péligre ?",
+    "options": [
+      "Le Centre",
+      "L'Ouest",
+      "L'Artibonite",
+      "Le Nord"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel département se trouve la chute d'eau du Saut-Mathurine ?",
+    "options": [
+      "Le Sud",
+      "Le Nord",
+      "L'Ouest",
+      "Les Nippes"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le seul département de la République d'Haïti qui n'est pas bordé par la mer ?",
+    "options": [
+      "Le Centre",
+      "Les Nippes",
+      "Le Nord-Est",
+      "Le Sud-Est"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le chef-lieu du département du Centre ?",
+    "options": [
+      "Hinche",
+      "Mirebalais",
+      "Lascahobas",
+      "Belladère"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle ville la plus proche se trouve en face de l'île de la Gonâve ?",
+    "options": [
+      "Montrouis",
+      "Jacmel",
+      "Les Cayes",
+      "Pestel"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle ville est la plus proche de l'île de la Tortue ?",
+    "options": [
+      "Saint-Louis-du-Nord",
+      "Port-de-Paix seul",
+      "Cap-Haïtien centre",
+      "Môle-Saint-Nicolas"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le chef-lieu du département de la Grande-Anse ?",
+    "options": [
+      "Jérémie",
+      "Miragoâne",
+      "Anse-d'Hainault",
+      "Corail"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le chef-lieu du département des Nippes ?",
+    "options": [
+      "Miragoâne",
+      "Anse-à-Veau",
+      "Baradères",
+      "Petit-Goâve"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le chef-lieu du département du Nord-Est ?",
+    "options": [
+      "Fort-Liberté",
+      "Ouanaminthe",
+      "Trou-du-Nord",
+      "Vallières"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le chef-lieu du département de l'Artibonite ?",
+    "options": [
+      "Les Gonaïves",
+      "Saint-Marc",
+      "Dessalines",
+      "Verrettes"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel département se trouve la commune de Bombardopolis ?",
+    "options": [
+      "Le Nord-Ouest",
+      "Le Nord",
+      "L'Artibonite",
+      "La Grand'Anse"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle est la capitale de la Jamaïque ?",
+    "options": [
+      "Kingston",
+      "Montego Bay",
+      "Spanish Town",
+      "Port Royal"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle est la capitale de Sainte-Lucie ?",
+    "options": [
+      "Castries",
+      "Bridgetown",
+      "Roseau",
+      "Kingstown"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle est la ville principale de la Guadeloupe ?",
+    "options": [
+      "Basse-Terre",
+      "Pointe-à-Pitre",
+      "Les Abymes",
+      "Le Gosier"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle est la ville principale de la Martinique ?",
+    "options": [
+      "Fort-de-France",
+      "Le Lamentin",
+      "Schœlcher",
+      "Saint-Pierre"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel pays se trouve le volcan Cotopaxi ?",
+    "options": [
+      "L'Équateur",
+      "Le Chili",
+      "Le Pérou",
+      "La Colombie"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel pays se trouve le site volcanique de Yellowstone ?",
+    "options": [
+      "Les États-Unis",
+      "Le Canada",
+      "Le Mexique",
+      "L'Islande"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays est situé en Afrique du Nord parmi ces choix : Libye, Sénégal, Somalie, Finlande ?",
+    "options": [
+      "La Libye",
+      "Le Sénégal",
+      "La Somalie",
+      "La Finlande"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays parmi ces choix se situe en Afrique de l'Est : Sénégal, Somalie, Libye, Italie ?",
+    "options": [
+      "La Somalie",
+      "Le Sénégal",
+      "La Libye",
+      "L'Italie"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle planète du système solaire est la plus chaude ?",
+    "options": [
+      "Vénus",
+      "Mercure",
+      "Mars",
+      "Jupiter"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelles sont les deux planètes du système solaire les plus proches du Soleil ?",
+    "options": [
+      "Mercure et Vénus",
+      "Vénus et la Terre",
+      "Mercure et Mars",
+      "La Terre et Mars"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le plus haut sommet parmi ceux-ci : Fuji-Yama, Kilimandjaro, Mont Everest ?",
+    "options": [
+      "Le Mont Everest",
+      "Le Kilimandjaro",
+      "Le Fuji-Yama",
+      "Aucun des trois"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le plus long fleuve d'Europe ?",
+    "options": [
+      "La Volga",
+      "Le Danube",
+      "Le Rhin",
+      "La Seine"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le plus long fleuve d'Amérique du Sud ?",
+    "options": [
+      "L'Amazone",
+      "L'Orénoque",
+      "Le Paraná",
+      "Le Magdalena"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle est la ville la plus peuplée du monde (agglomération) ?",
+    "options": [
+      "Tokyo",
+      "Shanghai",
+      "New Delhi",
+      "Mexico"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel est le premier producteur mondial de pétrole parmi les pays suivants ?",
+    "options": [
+      "L'Arabie saoudite",
+      "Le Brésil",
+      "Le Nigeria",
+      "La Norvège"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle capitale correspond au Venezuela ?",
+    "options": [
+      "Caracas",
+      "Bogotá",
+      "Lima",
+      "Quito"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle capitale correspond à l'Iran ?",
+    "options": [
+      "Téhéran",
+      "Bagdad",
+      "Riyad",
+      "Ankara"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle capitale correspond au Mali ?",
+    "options": [
+      "Bamako",
+      "Niamey",
+      "Ouagadougou",
+      "Dakar"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle capitale correspond à la Corée du Nord ?",
+    "options": [
+      "Pyongyang",
+      "Séoul",
+      "Hanoï",
+      "Oulan-Bator"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle capitale correspond aux Bahamas ?",
+    "options": [
+      "Nassau",
+      "Bridgetown",
+      "Kingston",
+      "Castries"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle capitale correspond à l'Éthiopie ?",
+    "options": [
+      "Addis-Abeba",
+      "Nairobi",
+      "Khartoum",
+      "Kampala"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Comment s'appelait le Burkina Faso avant 1984 ?",
+    "options": [
+      "La Haute-Volta",
+      "Le Soudan français",
+      "La Côte d'Ivoire française",
+      "Le Dahomey"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quels sont les cinq membres permanents du Conseil de sécurité de l'ONU ?",
+    "options": [
+      "États-Unis, Russie, Chine, France, Royaume-Uni",
+      "États-Unis, Allemagne, Japon, Inde, Brésil",
+      "France, Italie, Espagne, Portugal, Belgique",
+      "Chine, Inde, Russie, Brésil, Afrique du Sud"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quels territoires ont opposé le Royaume-Uni et l'Argentine dans un conflit territorial ?",
+    "options": [
+      "Les îles Malouines",
+      "Le Gibraltar",
+      "Les îles Falkland du Nord",
+      "La Terre de Feu"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quels deux pays sont concernés par les tensions autour de la ville de Goma, dans le Nord-Kivu ?",
+    "options": [
+      "La République démocratique du Congo et le Rwanda",
+      "Le Kenya et la Tanzanie",
+      "Le Nigeria et le Cameroun",
+      "L'Éthiopie et l'Érythrée"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qui a dirigé l'Éthiopie sous le titre d'empereur, Hailé Sélassié 1er ?",
+    "options": [
+      "L'Éthiopie",
+      "L'Égypte",
+      "Le Kenya",
+      "Le Soudan"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays Anouar el-Sadate a-t-il dirigé en tant que président ?",
+    "options": [
+      "L'Égypte",
+      "La Syrie",
+      "La Libye",
+      "La Jordanie"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays Nelson Mandela a-t-il dirigé en tant que président ?",
+    "options": [
+      "L'Afrique du Sud",
+      "Le Zimbabwe",
+      "Le Kenya",
+      "Le Nigeria"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays Patrice Lumumba a-t-il dirigé en tant que premier ministre ?",
+    "options": [
+      "La République démocratique du Congo",
+      "Le Congo-Brazzaville",
+      "L'Angola",
+      "Le Rwanda"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays Thomas Sankara a-t-il dirigé en tant que président révolutionnaire ?",
+    "options": [
+      "Le Burkina Faso",
+      "Le Mali",
+      "Le Niger",
+      "La Guinée"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Depuis combien d'années environ la traite transatlantique des Africains a-t-elle duré, entre son début et son abolition ?",
+    "options": [
+      "Environ trois siècles (1503 à 1815)",
+      "Environ un siècle",
+      "Environ cinquante ans",
+      "Environ six siècles"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quels sont les trois continents impliqués dans la traite transatlantique des esclaves ?",
+    "options": [
+      "Europe, Afrique, Amérique",
+      "Europe, Asie, Amérique",
+      "Afrique, Asie, Océanie",
+      "Amérique, Océanie, Europe"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays parmi ces choix a maintenu l'esclavage plusieurs décennies après son indépendance ?",
+    "options": [
+      "Les États-Unis",
+      "Haïti",
+      "Le Mexique",
+      "Le Chili"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dans quel État américain les premiers esclaves africains sont-ils arrivés en Amérique du Nord ?",
+    "options": [
+      "La Virginie",
+      "La Caroline du Sud",
+      "La Géorgie",
+      "Le Maryland"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "En quelle année l'Espagne a-t-elle rejoint la Communauté économique européenne ?",
+    "options": [
+      "1986",
+      "1957",
+      "1992",
+      "2004"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Combien de pays regroupe l'Union européenne après le Brexit ?",
+    "options": [
+      "27",
+      "28",
+      "25",
+      "30"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays a organisé la Coupe du monde de football de 2006 ?",
+    "options": [
+      "L'Allemagne",
+      "La France",
+      "L'Italie",
+      "Le Brésil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel pays a organisé la Coupe du monde de football de 2010, la première en Afrique ?",
+    "options": [
+      "L'Afrique du Sud",
+      "Le Maroc",
+      "L'Égypte",
+      "Le Nigeria"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quels pays et/ou territoires font partie de la région Caraïbe parmi ces choix : Îles Vierges, Grenade, Îles Salomon, Île Maurice ?",
+    "options": [
+      "Les Îles Vierges et la Grenade",
+      "Les Îles Salomon et l'Île Maurice",
+      "Seulement l'Île Maurice",
+      "Seulement les Îles Salomon"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quels pays/territoires caribéens font partie du Commonwealth britannique parmi ces choix : Martinique, Jamaïque, Haïti, Barbade, Cuba ?",
+    "options": [
+      "La Jamaïque et la Barbade",
+      "La Martinique et Haïti",
+      "Cuba et Haïti",
+      "La Martinique et Cuba"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Parmi Cuba, Barbade, Dominique et Porto Rico, quelle île est la plus grande en superficie ?",
+    "options": [
+      "Cuba",
+      "Porto Rico",
+      "La Dominique",
+      "La Barbade"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Durant quelle épidémie des années 2014-2016 la Sierra Leone et la Guinée ont-elles été particulièrement touchées ?",
+    "options": [
+      "L'épidémie d'Ebola",
+      "La pandémie de choléra",
+      "La pandémie de grippe H1N1",
+      "L'épidémie de VIH/Sida"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel médecin et gouverneur espagnol est associé au début de la traite négrière en 1503 sur l'île d'Hispaniola ?",
+    "options": [
+      "Nicolas Ovando",
+      "Bartolomé de Las Casas",
+      "Diego Vélasquez",
+      "Hernán Cortés"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel explorateur a quitté le port de Palos, en Andalousie, le 3 août 1492 pour rejoindre l'Amérique ?",
+    "options": [
+      "Christophe Colomb",
+      "Vasco de Gama",
+      "Fernand de Magellan",
+      "Amerigo Vespucci"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Combien de jours a duré la traversée de Christophe Colomb avant d'atteindre l'Amérique en 1492 ?",
+    "options": [
+      "Environ 70 jours",
+      "Environ 30 jours",
+      "Environ 120 jours",
+      "Environ 10 jours"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel nom indigène portait l'île que Christophe Colomb a rebaptisée San Salvador ?",
+    "options": [
+      "Guanahani",
+      "Quisqueya",
+      "Cibao",
+      "Xaymaca"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "À quelle date Christophe Colomb est-il arrivé en Amérique en 1492 ?",
+    "options": [
+      "Le 12 octobre",
+      "Le 3 août",
+      "Le 25 décembre",
+      "Le 1er janvier"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quelle première ville a été fondée par les Espagnols sur l'île d'Hispaniola ?",
+    "options": [
+      "Isabella",
+      "Santo Domingo",
+      "Santiago",
+      "La Vega"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Où a eu lieu la première bataille entre Espagnols et populations indigènes sur l'île d'Hispaniola ?",
+    "options": [
+      "À la Vega Real",
+      "À Santo Domingo",
+      "Au Cap-Haïtien",
+      "À Jacmel"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quel type de document Sonthonax et Polverel représentaient-ils sur l'île en tant qu'envoyés de la France révolutionnaire ?",
+    "options": [
+      "Des commissaires civils",
+      "Des gouverneurs coloniaux permanents",
+      "Des ambassadeurs",
+      "Des évêques"
+    ],
+    "correct": 0
+  }
+]
