@@ -2,13 +2,12 @@ import { useState, useMemo } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import bloc1 from '../data/bloc1_dirigeants.json'
 import bloc2 from '../data/bloc2_ueh.json'
+import AdModal from '../components/AdModal.jsx'
 
 const BLOCS = {
   bloc1: { title: "Les Dirigeants d'Haïti", data: bloc1 },
   bloc2: { title: 'Spécial Concours UEH', data: bloc2 },
 }
-
-const QUESTIONS_PER_GAME = 15
 
 function shuffle(arr) {
   const a = [...arr]
@@ -20,7 +19,7 @@ function shuffle(arr) {
 }
 
 function pickGameQuestions(allQuestions) {
-  const picked = shuffle(allQuestions).slice(0, QUESTIONS_PER_GAME)
+  const picked = shuffle(allQuestions)
   return picked.map(q => {
     const optionObjs = q.options.map((text, i) => ({ text, isCorrect: i === q.correct }))
     const shuffledOptions = shuffle(optionObjs)
@@ -43,6 +42,8 @@ export default function SpecialQuiz() {
   const [correctCount, setCorrectCount] = useState(0)
   const [selected, setSelected] = useState(null)
   const [finished, setFinished] = useState(false)
+  const [showLostPrompt, setShowLostPrompt] = useState(false)
+  const [showAd, setShowAd] = useState(false)
 
   if (!bloc) {
     return (
@@ -54,12 +55,11 @@ export default function SpecialQuiz() {
   }
 
   if (finished) {
-    const pct = Math.round((correctCount / questions.length) * 100)
     return (
       <div className="screen mode-screen">
         <h1 className="mode-title">PARTIE TERMINÉE</h1>
         <p style={{ color: '#ccc', padding: '0 20px', fontSize: '18px' }}>
-          {correctCount} / {questions.length} bonnes réponses ({pct}%)
+          {correctCount} bonne{correctCount > 1 ? 's' : ''} réponse{correctCount > 1 ? 's' : ''} avant la fin
         </p>
         <button className="mode-card" onClick={() => navigate('/special')} style={{ marginTop: 20 }}>
           <span className="mode-card__icon">🔁</span>
@@ -67,6 +67,46 @@ export default function SpecialQuiz() {
             <span className="mode-card__title">Rejouer / Changer de bloc</span>
           </div>
         </button>
+      </div>
+    )
+  }
+
+  if (showAd) {
+    return <AdModal onClose={() => {
+      setShowAd(false)
+      setSelected(null)
+      if (qIndex + 1 >= questions.length) {
+        setFinished(true)
+      } else {
+        setQIndex(i => i + 1)
+      }
+    }} />
+  }
+
+  if (showLostPrompt) {
+    return (
+      <div className="screen mode-screen">
+        <div className="quiz-empty">
+          <p>Mauvaise réponse !</p>
+          <button
+            className="btn-primary"
+            onClick={() => {
+              setShowLostPrompt(false)
+              setShowAd(true)
+            }}
+          >
+            🎬 Regarder une pub (continuer)
+          </button>
+          <button
+            className="btn-outline"
+            onClick={() => {
+              setShowLostPrompt(false)
+              setFinished(true)
+            }}
+          >
+            Terminer la partie
+          </button>
+        </div>
       </div>
     )
   }
@@ -79,12 +119,16 @@ export default function SpecialQuiz() {
     const isCorrect = i === question.correct
 
     setTimeout(() => {
-      if (isCorrect) setCorrectCount(c => c + 1)
-      if (qIndex + 1 >= questions.length) {
-        setFinished(true)
+      if (isCorrect) {
+        setCorrectCount(c => c + 1)
+        if (qIndex + 1 >= questions.length) {
+          setFinished(true)
+        } else {
+          setQIndex(qIndex + 1)
+          setSelected(null)
+        }
       } else {
-        setQIndex(qIndex + 1)
-        setSelected(null)
+        setShowLostPrompt(true)
       }
     }, 700)
   }
@@ -94,7 +138,7 @@ export default function SpecialQuiz() {
       <button className="mode-back" onClick={() => navigate('/special')}>←</button>
       <h1 className="mode-title">{bloc.title}</h1>
       <p style={{ color: '#aaa', padding: '0 20px' }}>
-        Question {qIndex + 1}/{questions.length}
+        {correctCount} bonne{correctCount > 1 ? 's' : ''}
       </p>
 
       <div className="mode-list">

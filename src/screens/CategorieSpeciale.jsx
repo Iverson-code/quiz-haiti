@@ -16,7 +16,7 @@ export default function CategorieSpeciale() {
           <div className="mode-card__text">
             <span className="mode-card__title">Les Dirigeants d'Haïti</span>
             <span className="mode-card__subtitle">
-              Présidents, ministres, directeurs généraux (1993-2026) · {bloc1.length} questions
+              Présidents, ministres, directeurs généraux (1993-2026)
             </span>
           </div>
         </button>
@@ -26,7 +26,7 @@ export default function CategorieSpeciale() {
           <div className="mode-card__text">
             <span className="mode-card__title">Spécial Concours UEH</span>
             <span className="mode-card__subtitle">
-              Culture générale & actualité · {bloc2.length} questions
+              Culture générale & actualité
             </span>
           </div>
         </button>
