@@ -151,27 +151,3 @@ export function getBadgeStatus() {
   return BADGES.map(b => ({ ...b, unlocked: b.check(stats, xp) }))
 }
 
-export function recordDailyLogin() {
-  const today = todayKey()
-  const lastDate = readJSON(PREFIX + 'last_login', null)
-  const currentStreak = readJSON(PREFIX + 'login_streak', 0)
-
-  if (lastDate === today) {
-    return { streak: currentStreak, isNewDay: false, rewardXP: 0 }
-  }
-
-  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10)
-  const newStreak = lastDate === yesterday ? currentStreak + 1 : 1
-
-  writeJSON(PREFIX + 'last_login', today)
-  writeJSON(PREFIX + 'login_streak', newStreak)
-
-  const rewardXP = Math.min(newStreak, 7) * 100
-  addXP(rewardXP)
-
-  return { streak: newStreak, isNewDay: true, rewardXP }
-}
-
-export function getLoginStreak() {
-  return readJSON(PREFIX + 'login_streak', 0)
-}

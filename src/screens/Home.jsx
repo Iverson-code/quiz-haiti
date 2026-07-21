@@ -3,21 +3,14 @@ import { useNavigate } from 'react-router-dom'
 import { startMusic } from '../utils/sound.js'
 import { auth } from '../firebase/config.js'
 import { subscribeAuth } from '../firebase/auth.js'
-import { recordDailyLogin } from '../utils/progress.js'
 
 export default function Home() {
   const navigate = useNavigate()
   const [user, setUser] = useState(auth.currentUser)
-  const [loginReward, setLoginReward] = useState(null)
 
   useEffect(() => {
     const unsub = subscribeAuth(setUser)
     return unsub
-  }, [])
-
-  useEffect(() => {
-    const result = recordDailyLogin()
-    if (result.isNewDay) setLoginReward(result)
   }, [])
 
   function handlePlay() {
@@ -39,13 +32,6 @@ export default function Home() {
         </button>
       )}
       <div className="home-v2-content">
-        {loginReward && (
-          <div className="login-streak-banner">
-            🔥 Série de {loginReward.streak} jour{loginReward.streak > 1 ? 's' : ''} !
-            <br />+{loginReward.rewardXP} XP
-            <button className="login-streak-banner__close" onClick={() => setLoginReward(null)}>✕</button>
-          </div>
-        )}
         <div className="home-v2-flag">🇭🇹</div>
         <h1 className="home-v2-title">QUIZ HAÏTI</h1>
         <p className="home-v2-tagline">Toute l'histoire d'Haïti dans un jeu</p>
