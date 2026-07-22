@@ -5,7 +5,8 @@ import { getBestScore } from '../utils/storage.js'
 import { auth } from '../firebase/config.js'
 import {
   getTotalLeaderboard, getCategoryLeaderboard, getPeriodLeaderboard,
-  getRegionLeaderboard, getTeamTotals
+  getRegionLeaderboard, getTeamTotals,
+  getMyTotalRank, getMyCategoryRank, getMyRegionRank, getMyPeriodRank
 } from '../firebase/leaderboard.js'
 
 const REGIONS = [
@@ -30,6 +31,7 @@ export default function Leaderboard() {
   const [selectedCat, setSelectedCat] = useState('histoire')
   const [selectedRegion, setSelectedRegion] = useState('Ouest')
   const [rows, setRows] = useState([])
+  const [myRank, setMyRank] = useState(null)
   const [teamTotals, setTeamTotals] = useState(null)
   const [loading, setLoading] = useState(false)
   const [errored, setErrored] = useState(false)
@@ -39,17 +41,31 @@ export default function Leaderboard() {
     async function load() {
       setLoading(true)
       setErrored(false)
+      setMyRank(null)
       try {
         if (tab === 'team') {
           const data = await getTeamTotals()
           if (!cancelled) setTeamTotals(data)
         } else {
           let data = []
-          if (tab === 'total') data = await getTotalLeaderboard()
-          else if (tab === 'category') data = await getCategoryLeaderboard(selectedCat)
-          else if (tab === 'region') data = await getRegionLeaderboard(selectedRegion)
-          else data = await getPeriodLeaderboard(tab)
-          if (!cancelled) setRows(data)
+          let mine = null
+          if (tab === 'total') {
+            data = await getTotalLeaderboard(10)
+            mine = await getMyTotalRank(user.uid)
+          } else if (tab === 'category') {
+            data = await getCategoryLeaderboard(selectedCat, 10)
+            mine = await getMyCategoryRank(selectedCat, user.uid)
+          } else if (tab === 'region') {
+            data = await getRegionLeaderboard(selectedRegion, 10)
+            mine = await getMyRegionRank(selectedRegion, user.uid)
+          } else {
+            data = await getPeriodLeaderboard(tab, 10)
+            mine = await getMyPeriodRank(tab, user.uid)
+          }
+          if (!cancelled) {
+            setRows(data)
+            setMyRank(mine)
+          }
         }
       } catch (err) {
         console.warn('Classement indisponible :', err)
@@ -68,6 +84,7 @@ export default function Leaderboard() {
   ].map(r => ({ ...r, best: getBestScore(r.id) }))
 
   const teamMax = teamTotals ? Math.max(teamTotals.haiti, teamTotals.diaspora, 1) : 1
+  const meInTop = myRank && rows.some(r => r.uid === myRank.uid)
 
   return (
     <div className="screen mode-screen">
@@ -174,6 +191,19 @@ export default function Leaderboard() {
                   <span className="mode-card__best">{r.totalPoints ?? r.points} pts</span>
                 </div>
               ))}
+
+              {myRank && !meInTop && (
+                <>
+                  <div style={{ textAlign: 'center', color: '#888', padding: '6px 0' }}>· · ·</div>
+                  <div className="mode-card mode-card--static lb-row lb-row--me">
+                    <span className="lb-rank">{myRank.rank}</span>
+                    <div className="mode-card__text">
+                      <span className="mode-card__title">{myRank.pseudo}</span>
+                    </div>
+                    <span className="mode-card__best">{myRank.totalPoints ?? myRank.points} pts</span>
+                  </div>
+                </>
+              )}
             </div>
           )}
         </>
