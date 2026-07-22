@@ -1,3 +1,4 @@
+window.onerror = function(msg, url, line) { alert('ERREUR: ' + msg + ' (ligne ' + line + ')'); };
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { HashRouter } from 'react-router-dom'

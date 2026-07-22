@@ -121,7 +121,7 @@ let wasMusicPlayingBeforeHidden = false
 if (typeof document !== 'undefined') {
   document.addEventListener('visibilitychange', () => {
     if (document.hidden) {
-      wasMusicPlayingBeforeHidden = !!musicTimer
+      wasMusicPlayingBeforeHidden = !!(musicAudio && !musicAudio.paused)
       stopMusic()
     } else if (wasMusicPlayingBeforeHidden && isMusicEnabled()) {
       startMusic()
